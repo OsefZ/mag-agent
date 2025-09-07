@@ -3,7 +3,7 @@
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 [![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/downloads/release/python-390/)
 
-This repository contains the official implementation and experimental data for the MSc thesis, **"Mnemonic Addressable Graphs for Token-Efficient Code-Generation Agents"**.
+This repository contains the official implementation and experimental data for the MSc thesis, **"Learning from Failure: Mnemonic Addressable Graphs for Multi-Step Code Generation"**.
 
 MAG is a novel dynamic memory architecture for Large Language Model (LLM) agents that enables complex, multi-step reasoning. It moves beyond traditional vector-based retrieval by recording an agent's actions and their outcomes as a queryable, causal graph. This allows the agent to reflect on its own history, learn from its mistakes, and perform robust self-correction.
 
