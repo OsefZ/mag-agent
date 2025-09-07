@@ -1,0 +1,122 @@
+{
+  "tasks": [
+    {
+      "id": "simple_001",
+      "type": "function_implementation",
+      "problem": "Write a function called 'is_palindrome' that checks if a string is a palindrome",
+      "expected_signature": "def is_palindrome(s: str) -> bool:",
+      "test_cases": [
+        {"input": "racecar", "expected": true},
+        {"input": "hello", "expected": false},
+        {"input": "A man a plan a canal Panama", "expected": true}
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "simple_002",
+      "type": "function_implementation",
+      "problem": "Write a function called 'fibonacci' that returns the nth Fibonacci number",
+      "expected_signature": "def fibonacci(n: int) -> int:",
+      "test_cases": [
+        {"input": 0, "expected": 0},
+        {"input": 1, "expected": 1},
+        {"input": 10, "expected": 55}
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "simple_003",
+      "type": "function_implementation",
+      "problem": "Write a function called 'count_vowels' that counts vowels in a string",
+      "expected_signature": "def count_vowels(s: str) -> int:",
+      "test_cases": [
+        {"input": "hello", "expected": 2},
+        {"input": "python", "expected": 1},
+        {"input": "aeiou", "expected": 5}
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "simple_004",
+      "type": "bug_fix",
+      "problem": "Fix the bug in this function that should reverse a list",
+      "buggy_code": "def reverse_list(lst):\n    for i in range(len(lst)):\n        lst[i] = lst[len(lst) - i - 1]\n    return lst",
+      "test_cases": [
+        {"input": [1, 2, 3], "expected": [3, 2, 1]},
+        {"input": ["a", "b", "c"], "expected": ["c", "b", "a"]}
+      ],
+      "complexity": "medium"
+    },
+    {
+      "id": "simple_005",
+      "type": "function_implementation",
+      "problem": "Write a function called 'find_max' that finds the maximum value in a list without using built-in max()",
+      "expected_signature": "def find_max(lst: list) -> any:",
+      "test_cases": [
+        {"input": [1, 5, 3, 9, 2], "expected": 9},
+        {"input": [-1, -5, -3], "expected": -1},
+        {"input": [42], "expected": 42}
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "simple_006",
+      "type": "function_implementation",
+      "problem": "Write a function called 'is_prime' that checks if a number is prime",
+      "expected_signature": "def is_prime(n: int) -> bool:",
+      "test_cases": [
+        {"input": 2, "expected": true},
+        {"input": 17, "expected": true},
+        {"input": 4, "expected": false},
+        {"input": 1, "expected": false}
+      ],
+      "complexity": "medium"
+    },
+    {
+      "id": "simple_007",
+      "type": "function_implementation",
+      "problem": "Write a function called 'merge_sorted' that merges two sorted lists into one sorted list",
+      "expected_signature": "def merge_sorted(list1: list, list2: list) -> list:",
+      "test_cases": [
+        {"input": [[1, 3, 5], [2, 4, 6]], "expected": [1, 2, 3, 4, 5, 6]},
+        {"input": [[1, 2], [3, 4]], "expected": [1, 2, 3, 4]},
+        {"input": [[], [1, 2]], "expected": [1, 2]}
+      ],
+      "complexity": "medium"
+    },
+    {
+      "id": "simple_008",
+      "type": "bug_fix",
+      "problem": "Fix the bug in this binary search implementation",
+      "buggy_code": "def binary_search(arr, target):\n    left, right = 0, len(arr)\n    while left < right:\n        mid = (left + right) // 2\n        if arr[mid] == target:\n            return mid\n        elif arr[mid] < target:\n            left = mid\n        else:\n            right = mid\n    return -1",
+      "test_cases": [
+        {"input": [[1, 2, 3, 4, 5], 3], "expected": 2},
+        {"input": [[1, 2, 3, 4, 5], 6], "expected": -1}
+      ],
+      "complexity": "medium"
+    },
+    {
+      "id": "simple_009",
+      "type": "function_implementation",
+      "problem": "Write a function called 'remove_duplicates' that removes duplicates from a list while preserving order",
+      "expected_signature": "def remove_duplicates(lst: list) -> list:",
+      "test_cases": [
+        {"input": [1, 2, 2, 3, 1], "expected": [1, 2, 3]},
+        {"input": ["a", "b", "a", "c"], "expected": ["a", "b", "c"]}
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "simple_010",
+      "type": "function_implementation",
+      "problem": "Write a function called 'factorial' that calculates the factorial of a number",
+      "expected_signature": "def factorial(n: int) -> int:",
+      "test_cases": [
+        {"input": 0, "expected": 1},
+        {"input": 5, "expected": 120},
+        {"input": 10, "expected": 3628800}
+      ],
+      "complexity": "low"
+    }
+  ]
+}

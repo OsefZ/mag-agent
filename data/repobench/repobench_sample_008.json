@@ -1,0 +1,39 @@
+{
+  "repo_name": "xhuangcv/humannorm",
+  "file_path": "threestudio/models/materials/neural_radiance_material.py",
+  "context": [
+    {
+      "identifier": "BaseMaterial",
+      "path": "threestudio/models/materials/base.py",
+      "snippet": "class BaseMaterial(BaseModule):\n    @dataclass\n    class Config(BaseModule.Config):\n        pass\n\n    cfg: Config\n    requires_normal: bool = False\n    requires_tangent: bool = False\n\n    def configure(self):\n        pass\n\n    def forward(self, *args, **kwargs) -> Float[Tensor, \"*B 3\"]:\n        raise NotImplementedError\n\n    def export(self, *args, **kwargs) -> Dict[str, Any]:\n        return {}"
+    },
+    {
+      "identifier": "get_encoding",
+      "path": "threestudio/models/networks.py",
+      "snippet": "def get_encoding(n_input_dims: int, config) -> nn.Module:\n    # input suppose to be range [0, 1]\n    encoding: nn.Module\n    if config.otype == \"ProgressiveBandFrequency\":\n        encoding = ProgressiveBandFrequency(n_input_dims, config_to_primitive(config))\n    elif config.otype == \"ProgressiveBandHashGrid\":\n        encoding = ProgressiveBandHashGrid(n_input_dims, config_to_primitive(config))\n    else:\n        encoding = TCNNEncoding(n_input_dims, config_to_primitive(config))\n    encoding = CompositeEncoding(\n        encoding,\n        include_xyz=config.get(\"include_xyz\", False),\n        xyz_scale=2.0,\n        xyz_offset=-1.0,\n    )  # FIXME: hard coded\n    return encoding"
+    },
+    {
+      "identifier": "get_mlp",
+      "path": "threestudio/models/networks.py",
+      "snippet": "def get_mlp(n_input_dims, n_output_dims, config) -> nn.Module:\n    network: nn.Module\n    if config.otype == \"VanillaMLP\":\n        network = VanillaMLP(n_input_dims, n_output_dims, config_to_primitive(config))\n    elif config.otype == \"SphereInitVanillaMLP\":\n        network = SphereInitVanillaMLP(\n            n_input_dims, n_output_dims, config_to_primitive(config)\n        )\n    else:\n        assert (\n            config.get(\"sphere_init\", False) is False\n        ), \"sphere_init=True only supported by VanillaMLP\"\n        network = TCNNNetwork(n_input_dims, n_output_dims, config_to_primitive(config))\n    return network"
+    },
+    {
+      "identifier": "dot",
+      "path": "threestudio/utils/ops.py",
+      "snippet": "def dot(x, y):\n    return torch.sum(x * y, -1, keepdim=True)"
+    },
+    {
+      "identifier": "get_activation",
+      "path": "threestudio/utils/ops.py",
+      "snippet": "def get_activation(name) -> Callable:\n    if name is None:\n        return lambda x: x\n    name = name.lower()\n    if name == \"none\":\n        return lambda x: x\n    elif name == \"lin2srgb\":\n        return lambda x: torch.where(\n            x > 0.0031308,\n            torch.pow(torch.clamp(x, min=0.0031308), 1.0 / 2.4) * 1.055 - 0.055,\n            12.92 * x,\n        ).clamp(0.0, 1.0)\n    elif name == \"exp\":\n        return lambda x: torch.exp(x)\n    elif name == \"shifted_exp\":\n        return lambda x: torch.exp(x - 1.0)\n    elif name == \"trunc_exp\":\n        return trunc_exp\n    elif name == \"shifted_trunc_exp\":\n        return lambda x: trunc_exp(x - 1.0)\n    elif name == \"sigmoid\":\n        return lambda x: torch.sigmoid(x)\n    elif name == \"tanh\":\n        return lambda x: torch.tanh(x)\n    elif name == \"shifted_softplus\":\n        return lambda x: F.softplus(x - 1.0)\n    elif name == \"scale_-11_01\":\n        return lambda x: x * 0.5 + 0.5\n    else:\n        try:\n            return getattr(F, name)\n        except AttributeError:\n            raise ValueError(f\"Unknown activation function: {name}\")"
+    }
+  ],
+  "import_statement": "import random\nimport torch\nimport torch.nn as nn\nimport torch.nn.functional as F\nimport threestudio\nfrom dataclasses import dataclass, field\nfrom threestudio.models.materials.base import BaseMaterial\nfrom threestudio.models.networks import get_encoding, get_mlp\nfrom threestudio.utils.ops import dot, get_activation\nfrom threestudio.utils.typing import *",
+  "token_num": 1149,
+  "cropped_code": "\n\n\n\n@threestudio.register(\"neural-radiance-material\")\nclass NeuralRadianceMaterial(BaseMaterial):\n    @dataclass\n    class Config(BaseMaterial.Config):\n        input_feature_dims: int = 8\n        color_activation: str = \"sigmoid\"\n        dir_encoding_config: dict = field(\n            default_factory=lambda: {\"otype\": \"SphericalHarmonics\", \"degree\": 3}\n        )\n        mlp_network_config: dict = field(\n            default_factory=lambda: {\n                \"otype\": \"FullyFusedMLP\",\n                \"activation\": \"ReLU\",\n                \"n_neurons\": 16,\n                \"n_hidden_layers\": 2,\n            }\n        )\n\n    cfg: Config\n\n    def configure(self) -> None:\n",
+  "all_code": "\n\n\n\n@threestudio.register(\"neural-radiance-material\")\nclass NeuralRadianceMaterial(BaseMaterial):\n    @dataclass\n    class Config(BaseMaterial.Config):\n        input_feature_dims: int = 8\n        color_activation: str = \"sigmoid\"\n        dir_encoding_config: dict = field(\n            default_factory=lambda: {\"otype\": \"SphericalHarmonics\", \"degree\": 3}\n        )\n        mlp_network_config: dict = field(\n            default_factory=lambda: {\n                \"otype\": \"FullyFusedMLP\",\n                \"activation\": \"ReLU\",\n                \"n_neurons\": 16,\n                \"n_hidden_layers\": 2,\n            }\n        )\n\n    cfg: Config\n\n    def configure(self) -> None:",
+  "next_line": "        self.encoding = get_encoding(3, self.cfg.dir_encoding_config)",
+  "gold_snippet_index": 1,
+  "created_at": "2023-12-23 12:37:48+00:00",
+  "level": "2k"
+}

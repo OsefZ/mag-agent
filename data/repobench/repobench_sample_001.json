@@ -1,0 +1,29 @@
+{
+  "repo_name": "DLYuanGod/TinyGPT-V",
+  "file_path": "minigpt4/processors/blip_processors.py",
+  "context": [
+    {
+      "identifier": "registry",
+      "path": "minigpt4/common/registry.py",
+      "snippet": "class Registry:\n    def register_builder(cls, name):\n        def wrap(builder_cls):\n    def register_task(cls, name):\n        def wrap(task_cls):\n    def register_model(cls, name):\n        def wrap(model_cls):\n    def register_processor(cls, name):\n        def wrap(processor_cls):\n    def register_lr_scheduler(cls, name):\n        def wrap(lr_sched_cls):\n    def register_runner(cls, name):\n        def wrap(runner_cls):\n    def register_path(cls, name, path):\n    def register(cls, name, obj):\n    def get_builder_class(cls, name):\n    def get_model_class(cls, name):\n    def get_task_class(cls, name):\n    def get_processor_class(cls, name):\n    def get_lr_scheduler_class(cls, name):\n    def get_runner_class(cls, name):\n    def list_runners(cls):\n    def list_models(cls):\n    def list_tasks(cls):\n    def list_processors(cls):\n    def list_lr_schedulers(cls):\n    def list_datasets(cls):\n    def get_path(cls, name):\n    def get(cls, name, default=None, no_warning=False):\n    def unregister(cls, name):"
+    },
+    {
+      "identifier": "BaseProcessor",
+      "path": "minigpt4/processors/base_processor.py",
+      "snippet": "class BaseProcessor:\n    def __init__(self):\n        self.transform = lambda x: x\n        return\n\n    def __call__(self, item):\n        return self.transform(item)\n\n    @classmethod\n    def from_config(cls, cfg=None):\n        return cls()\n\n    def build(self, **kwargs):\n        cfg = OmegaConf.create(kwargs)\n\n        return self.from_config(cfg)"
+    },
+    {
+      "identifier": "RandomAugment",
+      "path": "minigpt4/processors/randaugment.py",
+      "snippet": "class RandomAugment(object):\n    def __init__(self, N=2, M=10, isPIL=False, augs=[]):\n        self.N = N\n        self.M = M\n        self.isPIL = isPIL\n        if augs:\n            self.augs = augs\n        else:\n            self.augs = list(arg_dict.keys())\n\n    def get_random_ops(self):\n        sampled_ops = np.random.choice(self.augs, self.N)\n        return [(op, 0.5, self.M) for op in sampled_ops]\n\n    def __call__(self, img):\n        if self.isPIL:\n            img = np.array(img)\n        ops = self.get_random_ops()\n        for name, prob, level in ops:\n            if np.random.random() > prob:\n                continue\n            args = arg_dict[name](level)\n            img = func_dict[name](img, *args)\n        return img"
+    }
+  ],
+  "import_statement": "import re\nfrom minigpt4.common.registry import registry\nfrom minigpt4.processors.base_processor import BaseProcessor\nfrom minigpt4.processors.randaugment import RandomAugment\nfrom omegaconf import OmegaConf\nfrom torchvision import transforms\nfrom torchvision.transforms.functional import InterpolationMode",
+  "token_num": 756,
+  "cropped_code": "\"\"\"\n Copyright (c) 2022, salesforce.com, inc.\n All rights reserved.\n SPDX-License-Identifier: BSD-3-Clause\n For full license text, see the LICENSE_Lavis file in the repo root or https://opensource.org/licenses/BSD-3-Clause\n\"\"\"\n\n\n\n\n",
+  "all_code": "\"\"\"\n Copyright (c) 2022, salesforce.com, inc.\n All rights reserved.\n SPDX-License-Identifier: BSD-3-Clause\n For full license text, see the LICENSE_Lavis file in the repo root or https://opensource.org/licenses/BSD-3-Clause\n\"\"\"\n\n\n\n",
+  "next_line": "class BlipImageBaseProcessor(BaseProcessor):",
+  "gold_snippet_index": 1,
+  "created_at": "2023-12-28 05:47:18+00:00",
+  "level": "2k"
+}

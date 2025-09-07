@@ -1,0 +1,2402 @@
+[
+  {
+    "instance_id": "scikit-learn__scikit-learn-25500",
+    "repo": "scikit-learn/scikit-learn",
+    "files_to_edit": [
+      "sklearn/isotonic.py"
+    ],
+    "repo_path": "./tmp_repos/scikit-learn_scikit-learn"
+  },
+  {
+    "instance_id": "sympy__sympy-21847",
+    "repo": "sympy/sympy",
+    "files_to_edit": [
+      "sympy/polys/monomials.py"
+    ],
+    "repo_path": "./tmp_repos/sympy_sympy"
+  },
+  {
+    "instance_id": "matplotlib__matplotlib-24265",
+    "repo": "matplotlib/matplotlib",
+    "files_to_edit": [
+      "lib/matplotlib/style/core.py"
+    ],
+    "repo_path": "./tmp_repos/matplotlib_matplotlib"
+  },
+  {
+    "instance_id": "django__django-14155",
+    "repo": "django/django",
+    "files_to_edit": [
+      "django/urls/resolvers.py"
+    ],
+    "repo_path": "./tmp_repos/django_django"
+  },
+  {
+    "instance_id": "astropy__astropy-7746",
+    "repo": "astropy/astropy",
+    "files_to_edit": [
+      "astropy/wcs/wcs.py"
+    ],
+    "repo_path": "./tmp_repos/astropy_astropy"
+  },
+  {
+    "instance_id": "sphinx-doc__sphinx-8713",
+    "repo": "sphinx-doc/sphinx",
+    "files_to_edit": [
+      "sphinx/ext/napoleon/docstring.py"
+    ],
+    "repo_path": "./tmp_repos/sphinx-doc_sphinx"
+  },
+  {
+    "instance_id": "django__django-15400",
+    "repo": "django/django",
+    "files_to_edit": [
+      "django/utils/functional.py"
+    ],
+    "repo_path": "./tmp_repos/django_django"
+  },
+  {
+    "instance_id": "django__django-11910",
+    "repo": "django/django",
+    "files_to_edit": [
+      "django/db/migrations/autodetector.py"
+    ],
+    "repo_path": "./tmp_repos/django_django"
+  },
+  {
+    "instance_id": "django__django-13757",
+    "repo": "django/django",
+    "files_to_edit": [
+      "django/db/models/fields/json.py"
+    ],
+    "repo_path": "./tmp_repos/django_django"
+  },
+  {
+    "instance_id": "django__django-12453",
+    "repo": "django/django",
+    "files_to_edit": [
+      "django/db/backends/base/creation.py"
+    ],
+    "repo_path": "./tmp_repos/django_django"
+  },
+  {
+    "instance_id": "pytest-dev__pytest-5692",
+    "repo": "pytest-dev/pytest",
+    "files_to_edit": [
+      "src/_pytest/junitxml.py"
+    ],
+    "repo_path": "./tmp_repos/pytest-dev_pytest"
+  },
+  {
+    "instance_id": "sympy__sympy-12171",
+    "repo": "sympy/sympy",
+    "files_to_edit": [
+      "sympy/printing/mathematica.py"
+    ],
+    "repo_path": "./tmp_repos/sympy_sympy"
+  },
+  {
+    "instance_id": "django__django-15695",
+    "repo": "django/django",
+    "files_to_edit": [
+      "django/db/migrations/operations/models.py"
+    ],
+    "repo_path": "./tmp_repos/django_django"
+  },
+  {
+    "instance_id": "mwaskom__seaborn-2848",
+    "repo": "mwaskom/seaborn",
+    "files_to_edit": [
+      "seaborn/_oldcore.py"
+    ],
+    "repo_path": "./tmp_repos/mwaskom_seaborn"
+  },
+  {
+    "instance_id": "matplotlib__matplotlib-23563",
+    "repo": "matplotlib/matplotlib",
+    "files_to_edit": [
+      "lib/mpl_toolkits/mplot3d/art3d.py"
+    ],
+    "repo_path": "./tmp_repos/matplotlib_matplotlib"
+  },
+  {
+    "instance_id": "scikit-learn__scikit-learn-14894",
+    "repo": "scikit-learn/scikit-learn",
+    "files_to_edit": [
+      "sklearn/svm/base.py"
+    ],
+    "repo_path": "./tmp_repos/scikit-learn_scikit-learn"
+  },
+  {
+    "instance_id": "django__django-13448",
+    "repo": "django/django",
+    "files_to_edit": [
+      "django/db/backends/base/creation.py"
+    ],
+    "repo_path": "./tmp_repos/django_django"
+  },
+  {
+    "instance_id": "django__django-11422",
+    "repo": "django/django",
+    "files_to_edit": [
+      "django/utils/autoreload.py"
+    ],
+    "repo_path": "./tmp_repos/django_django"
+  },
+  {
+    "instance_id": "matplotlib__matplotlib-18869",
+    "repo": "matplotlib/matplotlib",
+    "files_to_edit": [
+      "lib/matplotlib/__init__.py"
+    ],
+    "repo_path": "./tmp_repos/matplotlib_matplotlib"
+  },
+  {
+    "instance_id": "sympy__sympy-16503",
+    "repo": "sympy/sympy",
+    "files_to_edit": [
+      "sympy/printing/pretty/pretty.py"
+    ],
+    "repo_path": "./tmp_repos/sympy_sympy"
+  },
+  {
+    "instance_id": "django__django-15498",
+    "repo": "django/django",
+    "files_to_edit": [
+      "django/views/static.py"
+    ],
+    "repo_path": "./tmp_repos/django_django"
+  },
+  {
+    "instance_id": "sympy__sympy-21627",
+    "repo": "sympy/sympy",
+    "files_to_edit": [
+      "sympy/functions/elementary/complexes.py"
+    ],
+    "repo_path": "./tmp_repos/sympy_sympy"
+  },
+  {
+    "instance_id": "matplotlib__matplotlib-25442",
+    "repo": "matplotlib/matplotlib",
+    "files_to_edit": [
+      "lib/matplotlib/offsetbox.py"
+    ],
+    "repo_path": "./tmp_repos/matplotlib_matplotlib"
+  },
+  {
+    "instance_id": "sphinx-doc__sphinx-7686",
+    "repo": "sphinx-doc/sphinx",
+    "files_to_edit": [
+      "sphinx/ext/autosummary/generate.py"
+    ],
+    "repo_path": "./tmp_repos/sphinx-doc_sphinx"
+  },
+  {
+    "instance_id": "pytest-dev__pytest-5221",
+    "repo": "pytest-dev/pytest",
+    "files_to_edit": [
+      "src/_pytest/python.py"
+    ],
+    "repo_path": "./tmp_repos/pytest-dev_pytest"
+  },
+  {
+    "instance_id": "sympy__sympy-14396",
+    "repo": "sympy/sympy",
+    "files_to_edit": [
+      "sympy/polys/polyoptions.py"
+    ],
+    "repo_path": "./tmp_repos/sympy_sympy"
+  },
+  {
+    "instance_id": "sympy__sympy-11897",
+    "repo": "sympy/sympy",
+    "files_to_edit": [
+      "sympy/printing/latex.py"
+    ],
+    "repo_path": "./tmp_repos/sympy_sympy"
+  },
+  {
+    "instance_id": "sympy__sympy-13146",
+    "repo": "sympy/sympy",
+    "files_to_edit": [
+      "sympy/core/operations.py"
+    ],
+    "repo_path": "./tmp_repos/sympy_sympy"
+  },
+  {
+    "instance_id": "sympy__sympy-18835",
+    "repo": "sympy/sympy",
+    "files_to_edit": [
+      "sympy/utilities/iterables.py"
+    ],
+    "repo_path": "./tmp_repos/sympy_sympy"
+  },
+  {
+    "instance_id": "sympy__sympy-18199",
+    "repo": "sympy/sympy",
+    "files_to_edit": [
+      "sympy/ntheory/residue_ntheory.py"
+    ],
+    "repo_path": "./tmp_repos/sympy_sympy"
+  },
+  {
+    "instance_id": "sympy__sympy-13043",
+    "repo": "sympy/sympy",
+    "files_to_edit": [
+      "sympy/integrals/intpoly.py"
+    ],
+    "repo_path": "./tmp_repos/sympy_sympy"
+  },
+  {
+    "instance_id": "sympy__sympy-14817",
+    "repo": "sympy/sympy",
+    "files_to_edit": [
+      "sympy/printing/pretty/pretty.py"
+    ],
+    "repo_path": "./tmp_repos/sympy_sympy"
+  },
+  {
+    "instance_id": "django__django-11049",
+    "repo": "django/django",
+    "files_to_edit": [
+      "django/db/models/fields/__init__.py"
+    ],
+    "repo_path": "./tmp_repos/django_django"
+  },
+  {
+    "instance_id": "sphinx-doc__sphinx-11445",
+    "repo": "sphinx-doc/sphinx",
+    "files_to_edit": [
+      "sphinx/util/rst.py"
+    ],
+    "repo_path": "./tmp_repos/sphinx-doc_sphinx"
+  },
+  {
+    "instance_id": "scikit-learn__scikit-learn-15512",
+    "repo": "scikit-learn/scikit-learn",
+    "files_to_edit": [
+      "sklearn/cluster/_affinity_propagation.py"
+    ],
+    "repo_path": "./tmp_repos/scikit-learn_scikit-learn"
+  },
+  {
+    "instance_id": "astropy__astropy-14995",
+    "repo": "astropy/astropy",
+    "files_to_edit": [
+      "astropy/nddata/mixins/ndarithmetic.py"
+    ],
+    "repo_path": "./tmp_repos/astropy_astropy"
+  },
+  {
+    "instance_id": "scikit-learn__scikit-learn-14092",
+    "repo": "scikit-learn/scikit-learn",
+    "files_to_edit": [
+      "sklearn/neighbors/nca.py"
+    ],
+    "repo_path": "./tmp_repos/scikit-learn_scikit-learn"
+  },
+  {
+    "instance_id": "pylint-dev__pylint-7114",
+    "repo": "pylint-dev/pylint",
+    "files_to_edit": [
+      "pylint/lint/expand_modules.py"
+    ],
+    "repo_path": "./tmp_repos/pylint-dev_pylint"
+  },
+  {
+    "instance_id": "sympy__sympy-15011",
+    "repo": "sympy/sympy",
+    "files_to_edit": [
+      "sympy/utilities/lambdify.py"
+    ],
+    "repo_path": "./tmp_repos/sympy_sympy"
+  },
+  {
+    "instance_id": "matplotlib__matplotlib-23562",
+    "repo": "matplotlib/matplotlib",
+    "files_to_edit": [
+      "lib/mpl_toolkits/mplot3d/art3d.py"
+    ],
+    "repo_path": "./tmp_repos/matplotlib_matplotlib"
+  },
+  {
+    "instance_id": "django__django-11815",
+    "repo": "django/django",
+    "files_to_edit": [
+      "django/db/migrations/serializer.py"
+    ],
+    "repo_path": "./tmp_repos/django_django"
+  },
+  {
+    "instance_id": "sympy__sympy-17630",
+    "repo": "sympy/sympy",
+    "files_to_edit": [
+      "sympy/matrices/expressions/matexpr.py"
+    ],
+    "repo_path": "./tmp_repos/sympy_sympy"
+  },
+  {
+    "instance_id": "matplotlib__matplotlib-24970",
+    "repo": "matplotlib/matplotlib",
+    "files_to_edit": [
+      "lib/matplotlib/colors.py"
+    ],
+    "repo_path": "./tmp_repos/matplotlib_matplotlib"
+  },
+  {
+    "instance_id": "sympy__sympy-18087",
+    "repo": "sympy/sympy",
+    "files_to_edit": [
+      "sympy/core/exprtools.py"
+    ],
+    "repo_path": "./tmp_repos/sympy_sympy"
+  },
+  {
+    "instance_id": "django__django-16041",
+    "repo": "django/django",
+    "files_to_edit": [
+      "django/forms/formsets.py"
+    ],
+    "repo_path": "./tmp_repos/django_django"
+  },
+  {
+    "instance_id": "django__django-15790",
+    "repo": "django/django",
+    "files_to_edit": [
+      "django/core/checks/templates.py"
+    ],
+    "repo_path": "./tmp_repos/django_django"
+  },
+  {
+    "instance_id": "django__django-14752",
+    "repo": "django/django",
+    "files_to_edit": [
+      "django/contrib/admin/views/autocomplete.py"
+    ],
+    "repo_path": "./tmp_repos/django_django"
+  },
+  {
+    "instance_id": "django__django-12184",
+    "repo": "django/django",
+    "files_to_edit": [
+      "django/urls/resolvers.py"
+    ],
+    "repo_path": "./tmp_repos/django_django"
+  },
+  {
+    "instance_id": "matplotlib__matplotlib-23299",
+    "repo": "matplotlib/matplotlib",
+    "files_to_edit": [
+      "lib/matplotlib/__init__.py"
+    ],
+    "repo_path": "./tmp_repos/matplotlib_matplotlib"
+  },
+  {
+    "instance_id": "sympy__sympy-22840",
+    "repo": "sympy/sympy",
+    "files_to_edit": [
+      "sympy/simplify/cse_main.py"
+    ],
+    "repo_path": "./tmp_repos/sympy_sympy"
+  },
+  {
+    "instance_id": "sphinx-doc__sphinx-8801",
+    "repo": "sphinx-doc/sphinx",
+    "files_to_edit": [
+      "sphinx/ext/autodoc/importer.py"
+    ],
+    "repo_path": "./tmp_repos/sphinx-doc_sphinx"
+  },
+  {
+    "instance_id": "django__django-12700",
+    "repo": "django/django",
+    "files_to_edit": [
+      "django/views/debug.py"
+    ],
+    "repo_path": "./tmp_repos/django_django"
+  },
+  {
+    "instance_id": "django__django-12983",
+    "repo": "django/django",
+    "files_to_edit": [
+      "django/utils/text.py"
+    ],
+    "repo_path": "./tmp_repos/django_django"
+  },
+  {
+    "instance_id": "django__django-14787",
+    "repo": "django/django",
+    "files_to_edit": [
+      "django/utils/decorators.py"
+    ],
+    "repo_path": "./tmp_repos/django_django"
+  },
+  {
+    "instance_id": "matplotlib__matplotlib-25079",
+    "repo": "matplotlib/matplotlib",
+    "files_to_edit": [
+      "lib/matplotlib/colors.py"
+    ],
+    "repo_path": "./tmp_repos/matplotlib_matplotlib"
+  },
+  {
+    "instance_id": "sympy__sympy-13480",
+    "repo": "sympy/sympy",
+    "files_to_edit": [
+      "sympy/functions/elementary/hyperbolic.py"
+    ],
+    "repo_path": "./tmp_repos/sympy_sympy"
+  },
+  {
+    "instance_id": "sympy__sympy-17139",
+    "repo": "sympy/sympy",
+    "files_to_edit": [
+      "sympy/simplify/fu.py"
+    ],
+    "repo_path": "./tmp_repos/sympy_sympy"
+  },
+  {
+    "instance_id": "pytest-dev__pytest-7220",
+    "repo": "pytest-dev/pytest",
+    "files_to_edit": [
+      "src/_pytest/nodes.py"
+    ],
+    "repo_path": "./tmp_repos/pytest-dev_pytest"
+  },
+  {
+    "instance_id": "scikit-learn__scikit-learn-11281",
+    "repo": "scikit-learn/scikit-learn",
+    "files_to_edit": [
+      "sklearn/mixture/base.py"
+    ],
+    "repo_path": "./tmp_repos/scikit-learn_scikit-learn"
+  },
+  {
+    "instance_id": "scikit-learn__scikit-learn-13496",
+    "repo": "scikit-learn/scikit-learn",
+    "files_to_edit": [
+      "sklearn/ensemble/iforest.py"
+    ],
+    "repo_path": "./tmp_repos/scikit-learn_scikit-learn"
+  },
+  {
+    "instance_id": "pydata__xarray-4094",
+    "repo": "pydata/xarray",
+    "files_to_edit": [
+      "xarray/core/dataarray.py"
+    ],
+    "repo_path": "./tmp_repos/pydata_xarray"
+  },
+  {
+    "instance_id": "matplotlib__matplotlib-25311",
+    "repo": "matplotlib/matplotlib",
+    "files_to_edit": [
+      "lib/matplotlib/offsetbox.py"
+    ],
+    "repo_path": "./tmp_repos/matplotlib_matplotlib"
+  },
+  {
+    "instance_id": "scikit-learn__scikit-learn-13584",
+    "repo": "scikit-learn/scikit-learn",
+    "files_to_edit": [
+      "sklearn/utils/_pprint.py"
+    ],
+    "repo_path": "./tmp_repos/scikit-learn_scikit-learn"
+  },
+  {
+    "instance_id": "pytest-dev__pytest-7373",
+    "repo": "pytest-dev/pytest",
+    "files_to_edit": [
+      "src/_pytest/mark/evaluate.py"
+    ],
+    "repo_path": "./tmp_repos/pytest-dev_pytest"
+  },
+  {
+    "instance_id": "pydata__xarray-4493",
+    "repo": "pydata/xarray",
+    "files_to_edit": [
+      "xarray/core/variable.py"
+    ],
+    "repo_path": "./tmp_repos/pydata_xarray"
+  },
+  {
+    "instance_id": "django__django-16820",
+    "repo": "django/django",
+    "files_to_edit": [
+      "django/db/migrations/operations/models.py"
+    ],
+    "repo_path": "./tmp_repos/django_django"
+  },
+  {
+    "instance_id": "django__django-13321",
+    "repo": "django/django",
+    "files_to_edit": [
+      "django/contrib/sessions/backends/base.py"
+    ],
+    "repo_path": "./tmp_repos/django_django"
+  },
+  {
+    "instance_id": "django__django-14667",
+    "repo": "django/django",
+    "files_to_edit": [
+      "django/db/models/sql/query.py"
+    ],
+    "repo_path": "./tmp_repos/django_django"
+  },
+  {
+    "instance_id": "sympy__sympy-12454",
+    "repo": "sympy/sympy",
+    "files_to_edit": [
+      "sympy/matrices/matrices.py"
+    ],
+    "repo_path": "./tmp_repos/sympy_sympy"
+  },
+  {
+    "instance_id": "sphinx-doc__sphinx-8627",
+    "repo": "sphinx-doc/sphinx",
+    "files_to_edit": [
+      "sphinx/util/typing.py"
+    ],
+    "repo_path": "./tmp_repos/sphinx-doc_sphinx"
+  },
+  {
+    "instance_id": "pytest-dev__pytest-5227",
+    "repo": "pytest-dev/pytest",
+    "files_to_edit": [
+      "src/_pytest/logging.py"
+    ],
+    "repo_path": "./tmp_repos/pytest-dev_pytest"
+  },
+  {
+    "instance_id": "matplotlib__matplotlib-23314",
+    "repo": "matplotlib/matplotlib",
+    "files_to_edit": [
+      "lib/mpl_toolkits/mplot3d/axes3d.py"
+    ],
+    "repo_path": "./tmp_repos/matplotlib_matplotlib"
+  },
+  {
+    "instance_id": "django__django-11019",
+    "repo": "django/django",
+    "files_to_edit": [
+      "django/forms/widgets.py"
+    ],
+    "repo_path": "./tmp_repos/django_django"
+  },
+  {
+    "instance_id": "psf__requests-2674",
+    "repo": "psf/requests",
+    "files_to_edit": [
+      "requests/adapters.py"
+    ],
+    "repo_path": "./tmp_repos/psf_requests"
+  },
+  {
+    "instance_id": "sympy__sympy-12481",
+    "repo": "sympy/sympy",
+    "files_to_edit": [
+      "sympy/combinatorics/permutations.py"
+    ],
+    "repo_path": "./tmp_repos/sympy_sympy"
+  },
+  {
+    "instance_id": "sphinx-doc__sphinx-8282",
+    "repo": "sphinx-doc/sphinx",
+    "files_to_edit": [
+      "sphinx/ext/autodoc/__init__.py"
+    ],
+    "repo_path": "./tmp_repos/sphinx-doc_sphinx"
+  },
+  {
+    "instance_id": "django__django-17051",
+    "repo": "django/django",
+    "files_to_edit": [
+      "django/db/models/query.py"
+    ],
+    "repo_path": "./tmp_repos/django_django"
+  },
+  {
+    "instance_id": "django__django-14411",
+    "repo": "django/django",
+    "files_to_edit": [
+      "django/contrib/auth/forms.py"
+    ],
+    "repo_path": "./tmp_repos/django_django"
+  },
+  {
+    "instance_id": "django__django-16139",
+    "repo": "django/django",
+    "files_to_edit": [
+      "django/contrib/auth/forms.py"
+    ],
+    "repo_path": "./tmp_repos/django_django"
+  },
+  {
+    "instance_id": "pytest-dev__pytest-5495",
+    "repo": "pytest-dev/pytest",
+    "files_to_edit": [
+      "src/_pytest/assertion/util.py"
+    ],
+    "repo_path": "./tmp_repos/pytest-dev_pytest"
+  },
+  {
+    "instance_id": "sympy__sympy-21379",
+    "repo": "sympy/sympy",
+    "files_to_edit": [
+      "sympy/core/mod.py"
+    ],
+    "repo_path": "./tmp_repos/sympy_sympy"
+  },
+  {
+    "instance_id": "sympy__sympy-12419",
+    "repo": "sympy/sympy",
+    "files_to_edit": [
+      "sympy/matrices/expressions/matexpr.py"
+    ],
+    "repo_path": "./tmp_repos/sympy_sympy"
+  },
+  {
+    "instance_id": "django__django-14915",
+    "repo": "django/django",
+    "files_to_edit": [
+      "django/forms/models.py"
+    ],
+    "repo_path": "./tmp_repos/django_django"
+  },
+  {
+    "instance_id": "django__django-14016",
+    "repo": "django/django",
+    "files_to_edit": [
+      "django/db/models/query_utils.py"
+    ],
+    "repo_path": "./tmp_repos/django_django"
+  },
+  {
+    "instance_id": "sympy__sympy-14308",
+    "repo": "sympy/sympy",
+    "files_to_edit": [
+      "sympy/printing/pretty/pretty.py"
+    ],
+    "repo_path": "./tmp_repos/sympy_sympy"
+  },
+  {
+    "instance_id": "sympy__sympy-13971",
+    "repo": "sympy/sympy",
+    "files_to_edit": [
+      "sympy/printing/latex.py"
+    ],
+    "repo_path": "./tmp_repos/sympy_sympy"
+  },
+  {
+    "instance_id": "django__django-11039",
+    "repo": "django/django",
+    "files_to_edit": [
+      "django/core/management/commands/sqlmigrate.py"
+    ],
+    "repo_path": "./tmp_repos/django_django"
+  },
+  {
+    "instance_id": "django__django-15996",
+    "repo": "django/django",
+    "files_to_edit": [
+      "django/db/migrations/serializer.py"
+    ],
+    "repo_path": "./tmp_repos/django_django"
+  },
+  {
+    "instance_id": "sympy__sympy-24213",
+    "repo": "sympy/sympy",
+    "files_to_edit": [
+      "sympy/physics/units/unitsystem.py"
+    ],
+    "repo_path": "./tmp_repos/sympy_sympy"
+  },
+  {
+    "instance_id": "matplotlib__matplotlib-25433",
+    "repo": "matplotlib/matplotlib",
+    "files_to_edit": [
+      "lib/matplotlib/figure.py"
+    ],
+    "repo_path": "./tmp_repos/matplotlib_matplotlib"
+  },
+  {
+    "instance_id": "django__django-15902",
+    "repo": "django/django",
+    "files_to_edit": [
+      "django/forms/formsets.py"
+    ],
+    "repo_path": "./tmp_repos/django_django"
+  },
+  {
+    "instance_id": "pytest-dev__pytest-7168",
+    "repo": "pytest-dev/pytest",
+    "files_to_edit": [
+      "src/_pytest/_io/saferepr.py"
+    ],
+    "repo_path": "./tmp_repos/pytest-dev_pytest"
+  },
+  {
+    "instance_id": "sympy__sympy-14774",
+    "repo": "sympy/sympy",
+    "files_to_edit": [
+      "sympy/printing/latex.py"
+    ],
+    "repo_path": "./tmp_repos/sympy_sympy"
+  },
+  {
+    "instance_id": "django__django-12286",
+    "repo": "django/django",
+    "files_to_edit": [
+      "django/core/checks/translation.py"
+    ],
+    "repo_path": "./tmp_repos/django_django"
+  },
+  {
+    "instance_id": "django__django-13028",
+    "repo": "django/django",
+    "files_to_edit": [
+      "django/db/models/sql/query.py"
+    ],
+    "repo_path": "./tmp_repos/django_django"
+  },
+  {
+    "instance_id": "django__django-14997",
+    "repo": "django/django",
+    "files_to_edit": [
+      "django/db/backends/ddl_references.py"
+    ],
+    "repo_path": "./tmp_repos/django_django"
+  },
+  {
+    "instance_id": "scikit-learn__scikit-learn-15535",
+    "repo": "scikit-learn/scikit-learn",
+    "files_to_edit": [
+      "sklearn/metrics/cluster/_supervised.py"
+    ],
+    "repo_path": "./tmp_repos/scikit-learn_scikit-learn"
+  },
+  {
+    "instance_id": "django__django-16046",
+    "repo": "django/django",
+    "files_to_edit": [
+      "django/utils/numberformat.py"
+    ],
+    "repo_path": "./tmp_repos/django_django"
+  },
+  {
+    "instance_id": "django__django-16379",
+    "repo": "django/django",
+    "files_to_edit": [
+      "django/core/cache/backends/filebased.py"
+    ],
+    "repo_path": "./tmp_repos/django_django"
+  },
+  {
+    "instance_id": "django__django-16816",
+    "repo": "django/django",
+    "files_to_edit": [
+      "django/contrib/admin/checks.py"
+    ],
+    "repo_path": "./tmp_repos/django_django"
+  },
+  {
+    "instance_id": "django__django-16400",
+    "repo": "django/django",
+    "files_to_edit": [
+      "django/contrib/auth/management/__init__.py"
+    ],
+    "repo_path": "./tmp_repos/django_django"
+  },
+  {
+    "instance_id": "django__django-15851",
+    "repo": "django/django",
+    "files_to_edit": [
+      "django/db/backends/postgresql/client.py"
+    ],
+    "repo_path": "./tmp_repos/django_django"
+  },
+  {
+    "instance_id": "django__django-13710",
+    "repo": "django/django",
+    "files_to_edit": [
+      "django/contrib/admin/options.py"
+    ],
+    "repo_path": "./tmp_repos/django_django"
+  },
+  {
+    "instance_id": "django__django-15781",
+    "repo": "django/django",
+    "files_to_edit": [
+      "django/core/management/base.py"
+    ],
+    "repo_path": "./tmp_repos/django_django"
+  },
+  {
+    "instance_id": "sympy__sympy-22714",
+    "repo": "sympy/sympy",
+    "files_to_edit": [
+      "sympy/geometry/point.py"
+    ],
+    "repo_path": "./tmp_repos/sympy_sympy"
+  },
+  {
+    "instance_id": "django__django-15738",
+    "repo": "django/django",
+    "files_to_edit": [
+      "django/db/migrations/autodetector.py"
+    ],
+    "repo_path": "./tmp_repos/django_django"
+  },
+  {
+    "instance_id": "matplotlib__matplotlib-23476",
+    "repo": "matplotlib/matplotlib",
+    "files_to_edit": [
+      "lib/matplotlib/figure.py"
+    ],
+    "repo_path": "./tmp_repos/matplotlib_matplotlib"
+  },
+  {
+    "instance_id": "scikit-learn__scikit-learn-25747",
+    "repo": "scikit-learn/scikit-learn",
+    "files_to_edit": [
+      "sklearn/utils/_set_output.py"
+    ],
+    "repo_path": "./tmp_repos/scikit-learn_scikit-learn"
+  },
+  {
+    "instance_id": "django__django-14580",
+    "repo": "django/django",
+    "files_to_edit": [
+      "django/db/migrations/serializer.py"
+    ],
+    "repo_path": "./tmp_repos/django_django"
+  },
+  {
+    "instance_id": "sympy__sympy-20154",
+    "repo": "sympy/sympy",
+    "files_to_edit": [
+      "sympy/utilities/iterables.py"
+    ],
+    "repo_path": "./tmp_repos/sympy_sympy"
+  },
+  {
+    "instance_id": "pytest-dev__pytest-5103",
+    "repo": "pytest-dev/pytest",
+    "files_to_edit": [
+      "src/_pytest/assertion/rewrite.py"
+    ],
+    "repo_path": "./tmp_repos/pytest-dev_pytest"
+  },
+  {
+    "instance_id": "matplotlib__matplotlib-23964",
+    "repo": "matplotlib/matplotlib",
+    "files_to_edit": [
+      "lib/matplotlib/backends/backend_ps.py"
+    ],
+    "repo_path": "./tmp_repos/matplotlib_matplotlib"
+  },
+  {
+    "instance_id": "sympy__sympy-15308",
+    "repo": "sympy/sympy",
+    "files_to_edit": [
+      "sympy/printing/latex.py"
+    ],
+    "repo_path": "./tmp_repos/sympy_sympy"
+  },
+  {
+    "instance_id": "django__django-12497",
+    "repo": "django/django",
+    "files_to_edit": [
+      "django/db/models/fields/related.py"
+    ],
+    "repo_path": "./tmp_repos/django_django"
+  },
+  {
+    "instance_id": "scikit-learn__scikit-learn-25638",
+    "repo": "scikit-learn/scikit-learn",
+    "files_to_edit": [
+      "sklearn/utils/multiclass.py"
+    ],
+    "repo_path": "./tmp_repos/scikit-learn_scikit-learn"
+  },
+  {
+    "instance_id": "sympy__sympy-20590",
+    "repo": "sympy/sympy",
+    "files_to_edit": [
+      "sympy/core/_print_helpers.py"
+    ],
+    "repo_path": "./tmp_repos/sympy_sympy"
+  },
+  {
+    "instance_id": "psf__requests-2317",
+    "repo": "psf/requests",
+    "files_to_edit": [
+      "requests/sessions.py"
+    ],
+    "repo_path": "./tmp_repos/psf_requests"
+  },
+  {
+    "instance_id": "sympy__sympy-19487",
+    "repo": "sympy/sympy",
+    "files_to_edit": [
+      "sympy/functions/elementary/complexes.py"
+    ],
+    "repo_path": "./tmp_repos/sympy_sympy"
+  },
+  {
+    "instance_id": "django__django-14017",
+    "repo": "django/django",
+    "files_to_edit": [
+      "django/db/models/query_utils.py"
+    ],
+    "repo_path": "./tmp_repos/django_django"
+  },
+  {
+    "instance_id": "django__django-11583",
+    "repo": "django/django",
+    "files_to_edit": [
+      "django/utils/autoreload.py"
+    ],
+    "repo_path": "./tmp_repos/django_django"
+  },
+  {
+    "instance_id": "sympy__sympy-19254",
+    "repo": "sympy/sympy",
+    "files_to_edit": [
+      "sympy/polys/factortools.py"
+    ],
+    "repo_path": "./tmp_repos/sympy_sympy"
+  },
+  {
+    "instance_id": "django__django-13551",
+    "repo": "django/django",
+    "files_to_edit": [
+      "django/contrib/auth/tokens.py"
+    ],
+    "repo_path": "./tmp_repos/django_django"
+  },
+  {
+    "instance_id": "sympy__sympy-23191",
+    "repo": "sympy/sympy",
+    "files_to_edit": [
+      "sympy/printing/pretty/pretty.py"
+    ],
+    "repo_path": "./tmp_repos/sympy_sympy"
+  },
+  {
+    "instance_id": "sympy__sympy-13177",
+    "repo": "sympy/sympy",
+    "files_to_edit": [
+      "sympy/core/mod.py"
+    ],
+    "repo_path": "./tmp_repos/sympy_sympy"
+  },
+  {
+    "instance_id": "django__django-12747",
+    "repo": "django/django",
+    "files_to_edit": [
+      "django/db/models/deletion.py"
+    ],
+    "repo_path": "./tmp_repos/django_django"
+  },
+  {
+    "instance_id": "pytest-dev__pytest-8906",
+    "repo": "pytest-dev/pytest",
+    "files_to_edit": [
+      "src/_pytest/python.py"
+    ],
+    "repo_path": "./tmp_repos/pytest-dev_pytest"
+  },
+  {
+    "instance_id": "scikit-learn__scikit-learn-25570",
+    "repo": "scikit-learn/scikit-learn",
+    "files_to_edit": [
+      "sklearn/compose/_column_transformer.py"
+    ],
+    "repo_path": "./tmp_repos/scikit-learn_scikit-learn"
+  },
+  {
+    "instance_id": "django__django-13658",
+    "repo": "django/django",
+    "files_to_edit": [
+      "django/core/management/__init__.py"
+    ],
+    "repo_path": "./tmp_repos/django_django"
+  },
+  {
+    "instance_id": "django__django-11848",
+    "repo": "django/django",
+    "files_to_edit": [
+      "django/utils/http.py"
+    ],
+    "repo_path": "./tmp_repos/django_django"
+  },
+  {
+    "instance_id": "django__django-13033",
+    "repo": "django/django",
+    "files_to_edit": [
+      "django/db/models/sql/compiler.py"
+    ],
+    "repo_path": "./tmp_repos/django_django"
+  },
+  {
+    "instance_id": "sympy__sympy-15345",
+    "repo": "sympy/sympy",
+    "files_to_edit": [
+      "sympy/printing/mathematica.py"
+    ],
+    "repo_path": "./tmp_repos/sympy_sympy"
+  },
+  {
+    "instance_id": "sympy__sympy-20322",
+    "repo": "sympy/sympy",
+    "files_to_edit": [
+      "sympy/core/mul.py"
+    ],
+    "repo_path": "./tmp_repos/sympy_sympy"
+  },
+  {
+    "instance_id": "sympy__sympy-18189",
+    "repo": "sympy/sympy",
+    "files_to_edit": [
+      "sympy/solvers/diophantine.py"
+    ],
+    "repo_path": "./tmp_repos/sympy_sympy"
+  },
+  {
+    "instance_id": "scikit-learn__scikit-learn-10297",
+    "repo": "scikit-learn/scikit-learn",
+    "files_to_edit": [
+      "sklearn/linear_model/ridge.py"
+    ],
+    "repo_path": "./tmp_repos/scikit-learn_scikit-learn"
+  },
+  {
+    "instance_id": "matplotlib__matplotlib-23987",
+    "repo": "matplotlib/matplotlib",
+    "files_to_edit": [
+      "lib/matplotlib/figure.py"
+    ],
+    "repo_path": "./tmp_repos/matplotlib_matplotlib"
+  },
+  {
+    "instance_id": "django__django-14534",
+    "repo": "django/django",
+    "files_to_edit": [
+      "django/forms/boundfield.py"
+    ],
+    "repo_path": "./tmp_repos/django_django"
+  },
+  {
+    "instance_id": "django__django-13265",
+    "repo": "django/django",
+    "files_to_edit": [
+      "django/db/migrations/autodetector.py"
+    ],
+    "repo_path": "./tmp_repos/django_django"
+  },
+  {
+    "instance_id": "matplotlib__matplotlib-23913",
+    "repo": "matplotlib/matplotlib",
+    "files_to_edit": [
+      "lib/matplotlib/legend.py"
+    ],
+    "repo_path": "./tmp_repos/matplotlib_matplotlib"
+  },
+  {
+    "instance_id": "django__django-12589",
+    "repo": "django/django",
+    "files_to_edit": [
+      "django/db/models/sql/query.py"
+    ],
+    "repo_path": "./tmp_repos/django_django"
+  },
+  {
+    "instance_id": "astropy__astropy-14182",
+    "repo": "astropy/astropy",
+    "files_to_edit": [
+      "astropy/io/ascii/rst.py"
+    ],
+    "repo_path": "./tmp_repos/astropy_astropy"
+  },
+  {
+    "instance_id": "scikit-learn__scikit-learn-13497",
+    "repo": "scikit-learn/scikit-learn",
+    "files_to_edit": [
+      "sklearn/feature_selection/mutual_info_.py"
+    ],
+    "repo_path": "./tmp_repos/scikit-learn_scikit-learn"
+  },
+  {
+    "instance_id": "django__django-11999",
+    "repo": "django/django",
+    "files_to_edit": [
+      "django/db/models/fields/__init__.py"
+    ],
+    "repo_path": "./tmp_repos/django_django"
+  },
+  {
+    "instance_id": "django__django-15061",
+    "repo": "django/django",
+    "files_to_edit": [
+      "django/forms/widgets.py"
+    ],
+    "repo_path": "./tmp_repos/django_django"
+  },
+  {
+    "instance_id": "psf__requests-863",
+    "repo": "psf/requests",
+    "files_to_edit": [
+      "requests/models.py"
+    ],
+    "repo_path": "./tmp_repos/psf_requests"
+  },
+  {
+    "instance_id": "scikit-learn__scikit-learn-13439",
+    "repo": "scikit-learn/scikit-learn",
+    "files_to_edit": [
+      "sklearn/pipeline.py"
+    ],
+    "repo_path": "./tmp_repos/scikit-learn_scikit-learn"
+  },
+  {
+    "instance_id": "django__django-13964",
+    "repo": "django/django",
+    "files_to_edit": [
+      "django/db/models/base.py"
+    ],
+    "repo_path": "./tmp_repos/django_django"
+  },
+  {
+    "instance_id": "django__django-14608",
+    "repo": "django/django",
+    "files_to_edit": [
+      "django/forms/formsets.py"
+    ],
+    "repo_path": "./tmp_repos/django_django"
+  },
+  {
+    "instance_id": "sympy__sympy-15346",
+    "repo": "sympy/sympy",
+    "files_to_edit": [
+      "sympy/simplify/trigsimp.py"
+    ],
+    "repo_path": "./tmp_repos/sympy_sympy"
+  },
+  {
+    "instance_id": "django__django-13933",
+    "repo": "django/django",
+    "files_to_edit": [
+      "django/forms/models.py"
+    ],
+    "repo_path": "./tmp_repos/django_django"
+  },
+  {
+    "instance_id": "pytest-dev__pytest-7432",
+    "repo": "pytest-dev/pytest",
+    "files_to_edit": [
+      "src/_pytest/skipping.py"
+    ],
+    "repo_path": "./tmp_repos/pytest-dev_pytest"
+  },
+  {
+    "instance_id": "django__django-15388",
+    "repo": "django/django",
+    "files_to_edit": [
+      "django/template/autoreload.py"
+    ],
+    "repo_path": "./tmp_repos/django_django"
+  },
+  {
+    "instance_id": "sympy__sympy-23262",
+    "repo": "sympy/sympy",
+    "files_to_edit": [
+      "sympy/utilities/lambdify.py"
+    ],
+    "repo_path": "./tmp_repos/sympy_sympy"
+  },
+  {
+    "instance_id": "django__django-13925",
+    "repo": "django/django",
+    "files_to_edit": [
+      "django/db/models/base.py"
+    ],
+    "repo_path": "./tmp_repos/django_django"
+  },
+  {
+    "instance_id": "django__django-12908",
+    "repo": "django/django",
+    "files_to_edit": [
+      "django/db/models/query.py"
+    ],
+    "repo_path": "./tmp_repos/django_django"
+  },
+  {
+    "instance_id": "django__django-14999",
+    "repo": "django/django",
+    "files_to_edit": [
+      "django/db/migrations/operations/models.py"
+    ],
+    "repo_path": "./tmp_repos/django_django"
+  },
+  {
+    "instance_id": "sympy__sympy-24909",
+    "repo": "sympy/sympy",
+    "files_to_edit": [
+      "sympy/physics/units/prefixes.py"
+    ],
+    "repo_path": "./tmp_repos/sympy_sympy"
+  },
+  {
+    "instance_id": "sympy__sympy-20049",
+    "repo": "sympy/sympy",
+    "files_to_edit": [
+      "sympy/physics/vector/point.py"
+    ],
+    "repo_path": "./tmp_repos/sympy_sympy"
+  },
+  {
+    "instance_id": "scikit-learn__scikit-learn-13142",
+    "repo": "scikit-learn/scikit-learn",
+    "files_to_edit": [
+      "sklearn/mixture/base.py"
+    ],
+    "repo_path": "./tmp_repos/scikit-learn_scikit-learn"
+  },
+  {
+    "instance_id": "psf__requests-3362",
+    "repo": "psf/requests",
+    "files_to_edit": [
+      "requests/utils.py"
+    ],
+    "repo_path": "./tmp_repos/psf_requests"
+  },
+  {
+    "instance_id": "django__django-11133",
+    "repo": "django/django",
+    "files_to_edit": [
+      "django/http/response.py"
+    ],
+    "repo_path": "./tmp_repos/django_django"
+  },
+  {
+    "instance_id": "django__django-11099",
+    "repo": "django/django",
+    "files_to_edit": [
+      "django/contrib/auth/validators.py"
+    ],
+    "repo_path": "./tmp_repos/django_django"
+  },
+  {
+    "instance_id": "sphinx-doc__sphinx-8721",
+    "repo": "sphinx-doc/sphinx",
+    "files_to_edit": [
+      "sphinx/ext/viewcode.py"
+    ],
+    "repo_path": "./tmp_repos/sphinx-doc_sphinx"
+  },
+  {
+    "instance_id": "sympy__sympy-16792",
+    "repo": "sympy/sympy",
+    "files_to_edit": [
+      "sympy/utilities/codegen.py"
+    ],
+    "repo_path": "./tmp_repos/sympy_sympy"
+  },
+  {
+    "instance_id": "psf__requests-1963",
+    "repo": "psf/requests",
+    "files_to_edit": [
+      "requests/sessions.py"
+    ],
+    "repo_path": "./tmp_repos/psf_requests"
+  },
+  {
+    "instance_id": "pytest-dev__pytest-9359",
+    "repo": "pytest-dev/pytest",
+    "files_to_edit": [
+      "src/_pytest/_code/source.py"
+    ],
+    "repo_path": "./tmp_repos/pytest-dev_pytest"
+  },
+  {
+    "instance_id": "django__django-11797",
+    "repo": "django/django",
+    "files_to_edit": [
+      "django/db/models/lookups.py"
+    ],
+    "repo_path": "./tmp_repos/django_django"
+  },
+  {
+    "instance_id": "django__django-13315",
+    "repo": "django/django",
+    "files_to_edit": [
+      "django/forms/models.py"
+    ],
+    "repo_path": "./tmp_repos/django_django"
+  },
+  {
+    "instance_id": "django__django-11001",
+    "repo": "django/django",
+    "files_to_edit": [
+      "django/db/models/sql/compiler.py"
+    ],
+    "repo_path": "./tmp_repos/django_django"
+  },
+  {
+    "instance_id": "sympy__sympy-24102",
+    "repo": "sympy/sympy",
+    "files_to_edit": [
+      "sympy/parsing/mathematica.py"
+    ],
+    "repo_path": "./tmp_repos/sympy_sympy"
+  },
+  {
+    "instance_id": "sympy__sympy-11870",
+    "repo": "sympy/sympy",
+    "files_to_edit": [
+      "sympy/functions/elementary/trigonometric.py"
+    ],
+    "repo_path": "./tmp_repos/sympy_sympy"
+  },
+  {
+    "instance_id": "sympy__sympy-20442",
+    "repo": "sympy/sympy",
+    "files_to_edit": [
+      "sympy/physics/units/util.py"
+    ],
+    "repo_path": "./tmp_repos/sympy_sympy"
+  },
+  {
+    "instance_id": "django__django-12284",
+    "repo": "django/django",
+    "files_to_edit": [
+      "django/db/models/fields/__init__.py"
+    ],
+    "repo_path": "./tmp_repos/django_django"
+  },
+  {
+    "instance_id": "django__django-16910",
+    "repo": "django/django",
+    "files_to_edit": [
+      "django/db/models/sql/query.py"
+    ],
+    "repo_path": "./tmp_repos/django_django"
+  },
+  {
+    "instance_id": "pytest-dev__pytest-7490",
+    "repo": "pytest-dev/pytest",
+    "files_to_edit": [
+      "src/_pytest/skipping.py"
+    ],
+    "repo_path": "./tmp_repos/pytest-dev_pytest"
+  },
+  {
+    "instance_id": "pydata__xarray-5131",
+    "repo": "pydata/xarray",
+    "files_to_edit": [
+      "xarray/core/groupby.py"
+    ],
+    "repo_path": "./tmp_repos/pydata_xarray"
+  },
+  {
+    "instance_id": "django__django-11742",
+    "repo": "django/django",
+    "files_to_edit": [
+      "django/db/models/fields/__init__.py"
+    ],
+    "repo_path": "./tmp_repos/django_django"
+  },
+  {
+    "instance_id": "sympy__sympy-18057",
+    "repo": "sympy/sympy",
+    "files_to_edit": [
+      "sympy/core/expr.py"
+    ],
+    "repo_path": "./tmp_repos/sympy_sympy"
+  },
+  {
+    "instance_id": "django__django-13401",
+    "repo": "django/django",
+    "files_to_edit": [
+      "django/db/models/fields/__init__.py"
+    ],
+    "repo_path": "./tmp_repos/django_django"
+  },
+  {
+    "instance_id": "matplotlib__matplotlib-22835",
+    "repo": "matplotlib/matplotlib",
+    "files_to_edit": [
+      "lib/matplotlib/artist.py"
+    ],
+    "repo_path": "./tmp_repos/matplotlib_matplotlib"
+  },
+  {
+    "instance_id": "django__django-15347",
+    "repo": "django/django",
+    "files_to_edit": [
+      "django/contrib/messages/storage/cookie.py"
+    ],
+    "repo_path": "./tmp_repos/django_django"
+  },
+  {
+    "instance_id": "sympy__sympy-13031",
+    "repo": "sympy/sympy",
+    "files_to_edit": [
+      "sympy/matrices/sparse.py"
+    ],
+    "repo_path": "./tmp_repos/sympy_sympy"
+  },
+  {
+    "instance_id": "django__django-15202",
+    "repo": "django/django",
+    "files_to_edit": [
+      "django/core/validators.py"
+    ],
+    "repo_path": "./tmp_repos/django_django"
+  },
+  {
+    "instance_id": "django__django-13768",
+    "repo": "django/django",
+    "files_to_edit": [
+      "django/dispatch/dispatcher.py"
+    ],
+    "repo_path": "./tmp_repos/django_django"
+  },
+  {
+    "instance_id": "matplotlib__matplotlib-24149",
+    "repo": "matplotlib/matplotlib",
+    "files_to_edit": [
+      "lib/matplotlib/axes/_axes.py"
+    ],
+    "repo_path": "./tmp_repos/matplotlib_matplotlib"
+  },
+  {
+    "instance_id": "sympy__sympy-13437",
+    "repo": "sympy/sympy",
+    "files_to_edit": [
+      "sympy/functions/combinatorial/numbers.py"
+    ],
+    "repo_path": "./tmp_repos/sympy_sympy"
+  },
+  {
+    "instance_id": "sympy__sympy-20212",
+    "repo": "sympy/sympy",
+    "files_to_edit": [
+      "sympy/core/power.py"
+    ],
+    "repo_path": "./tmp_repos/sympy_sympy"
+  },
+  {
+    "instance_id": "pallets__flask-5063",
+    "repo": "pallets/flask",
+    "files_to_edit": [
+      "src/flask/cli.py"
+    ],
+    "repo_path": "./tmp_repos/pallets_flask"
+  },
+  {
+    "instance_id": "django__django-14238",
+    "repo": "django/django",
+    "files_to_edit": [
+      "django/db/models/fields/__init__.py"
+    ],
+    "repo_path": "./tmp_repos/django_django"
+  },
+  {
+    "instance_id": "django__django-10914",
+    "repo": "django/django",
+    "files_to_edit": [
+      "django/conf/global_settings.py"
+    ],
+    "repo_path": "./tmp_repos/django_django"
+  },
+  {
+    "instance_id": "matplotlib__matplotlib-25332",
+    "repo": "matplotlib/matplotlib",
+    "files_to_edit": [
+      "lib/matplotlib/cbook.py"
+    ],
+    "repo_path": "./tmp_repos/matplotlib_matplotlib"
+  },
+  {
+    "instance_id": "sphinx-doc__sphinx-8595",
+    "repo": "sphinx-doc/sphinx",
+    "files_to_edit": [
+      "sphinx/ext/autodoc/__init__.py"
+    ],
+    "repo_path": "./tmp_repos/sphinx-doc_sphinx"
+  },
+  {
+    "instance_id": "django__django-16229",
+    "repo": "django/django",
+    "files_to_edit": [
+      "django/forms/boundfield.py"
+    ],
+    "repo_path": "./tmp_repos/django_django"
+  },
+  {
+    "instance_id": "sympy__sympy-16988",
+    "repo": "sympy/sympy",
+    "files_to_edit": [
+      "sympy/sets/sets.py"
+    ],
+    "repo_path": "./tmp_repos/sympy_sympy"
+  },
+  {
+    "instance_id": "sympy__sympy-13773",
+    "repo": "sympy/sympy",
+    "files_to_edit": [
+      "sympy/matrices/common.py"
+    ],
+    "repo_path": "./tmp_repos/sympy_sympy"
+  },
+  {
+    "instance_id": "django__django-17087",
+    "repo": "django/django",
+    "files_to_edit": [
+      "django/db/migrations/serializer.py"
+    ],
+    "repo_path": "./tmp_repos/django_django"
+  },
+  {
+    "instance_id": "astropy__astropy-6938",
+    "repo": "astropy/astropy",
+    "files_to_edit": [
+      "astropy/io/fits/fitsrec.py"
+    ],
+    "repo_path": "./tmp_repos/astropy_astropy"
+  },
+  {
+    "instance_id": "sympy__sympy-21614",
+    "repo": "sympy/sympy",
+    "files_to_edit": [
+      "sympy/core/function.py"
+    ],
+    "repo_path": "./tmp_repos/sympy_sympy"
+  },
+  {
+    "instance_id": "sympy__sympy-20639",
+    "repo": "sympy/sympy",
+    "files_to_edit": [
+      "sympy/printing/pretty/pretty.py"
+    ],
+    "repo_path": "./tmp_repos/sympy_sympy"
+  },
+  {
+    "instance_id": "pylint-dev__pylint-5859",
+    "repo": "pylint-dev/pylint",
+    "files_to_edit": [
+      "pylint/checkers/misc.py"
+    ],
+    "repo_path": "./tmp_repos/pylint-dev_pylint"
+  },
+  {
+    "instance_id": "django__django-11283",
+    "repo": "django/django",
+    "files_to_edit": [
+      "django/contrib/auth/migrations/0011_update_proxy_permissions.py"
+    ],
+    "repo_path": "./tmp_repos/django_django"
+  },
+  {
+    "instance_id": "django__django-12856",
+    "repo": "django/django",
+    "files_to_edit": [
+      "django/db/models/base.py"
+    ],
+    "repo_path": "./tmp_repos/django_django"
+  },
+  {
+    "instance_id": "django__django-13590",
+    "repo": "django/django",
+    "files_to_edit": [
+      "django/db/models/sql/query.py"
+    ],
+    "repo_path": "./tmp_repos/django_django"
+  },
+  {
+    "instance_id": "sympy__sympy-15609",
+    "repo": "sympy/sympy",
+    "files_to_edit": [
+      "sympy/printing/latex.py"
+    ],
+    "repo_path": "./tmp_repos/sympy_sympy"
+  },
+  {
+    "instance_id": "sympy__sympy-13895",
+    "repo": "sympy/sympy",
+    "files_to_edit": [
+      "sympy/core/numbers.py"
+    ],
+    "repo_path": "./tmp_repos/sympy_sympy"
+  },
+  {
+    "instance_id": "django__django-13158",
+    "repo": "django/django",
+    "files_to_edit": [
+      "django/db/models/sql/query.py"
+    ],
+    "repo_path": "./tmp_repos/django_django"
+  },
+  {
+    "instance_id": "sympy__sympy-24066",
+    "repo": "sympy/sympy",
+    "files_to_edit": [
+      "sympy/physics/units/unitsystem.py"
+    ],
+    "repo_path": "./tmp_repos/sympy_sympy"
+  },
+  {
+    "instance_id": "django__django-14672",
+    "repo": "django/django",
+    "files_to_edit": [
+      "django/db/models/fields/reverse_related.py"
+    ],
+    "repo_path": "./tmp_repos/django_django"
+  },
+  {
+    "instance_id": "scikit-learn__scikit-learn-14983",
+    "repo": "scikit-learn/scikit-learn",
+    "files_to_edit": [
+      "sklearn/model_selection/_split.py"
+    ],
+    "repo_path": "./tmp_repos/scikit-learn_scikit-learn"
+  },
+  {
+    "instance_id": "matplotlib__matplotlib-22711",
+    "repo": "matplotlib/matplotlib",
+    "files_to_edit": [
+      "lib/matplotlib/widgets.py"
+    ],
+    "repo_path": "./tmp_repos/matplotlib_matplotlib"
+  },
+  {
+    "instance_id": "mwaskom__seaborn-3010",
+    "repo": "mwaskom/seaborn",
+    "files_to_edit": [
+      "seaborn/_stats/regression.py"
+    ],
+    "repo_path": "./tmp_repos/mwaskom_seaborn"
+  },
+  {
+    "instance_id": "django__django-16527",
+    "repo": "django/django",
+    "files_to_edit": [
+      "django/contrib/admin/templatetags/admin_modify.py"
+    ],
+    "repo_path": "./tmp_repos/django_django"
+  },
+  {
+    "instance_id": "django__django-13230",
+    "repo": "django/django",
+    "files_to_edit": [
+      "django/contrib/syndication/views.py"
+    ],
+    "repo_path": "./tmp_repos/django_django"
+  },
+  {
+    "instance_id": "django__django-13660",
+    "repo": "django/django",
+    "files_to_edit": [
+      "django/core/management/commands/shell.py"
+    ],
+    "repo_path": "./tmp_repos/django_django"
+  },
+  {
+    "instance_id": "django__django-12708",
+    "repo": "django/django",
+    "files_to_edit": [
+      "django/db/backends/base/schema.py"
+    ],
+    "repo_path": "./tmp_repos/django_django"
+  },
+  {
+    "instance_id": "scikit-learn__scikit-learn-11040",
+    "repo": "scikit-learn/scikit-learn",
+    "files_to_edit": [
+      "sklearn/neighbors/base.py"
+    ],
+    "repo_path": "./tmp_repos/scikit-learn_scikit-learn"
+  },
+  {
+    "instance_id": "sympy__sympy-17655",
+    "repo": "sympy/sympy",
+    "files_to_edit": [
+      "sympy/geometry/point.py"
+    ],
+    "repo_path": "./tmp_repos/sympy_sympy"
+  },
+  {
+    "instance_id": "pylint-dev__pylint-7080",
+    "repo": "pylint-dev/pylint",
+    "files_to_edit": [
+      "pylint/lint/expand_modules.py"
+    ],
+    "repo_path": "./tmp_repos/pylint-dev_pylint"
+  },
+  {
+    "instance_id": "django__django-11630",
+    "repo": "django/django",
+    "files_to_edit": [
+      "django/core/checks/model_checks.py"
+    ],
+    "repo_path": "./tmp_repos/django_django"
+  },
+  {
+    "instance_id": "pytest-dev__pytest-11148",
+    "repo": "pytest-dev/pytest",
+    "files_to_edit": [
+      "src/_pytest/pathlib.py"
+    ],
+    "repo_path": "./tmp_repos/pytest-dev_pytest"
+  },
+  {
+    "instance_id": "matplotlib__matplotlib-26011",
+    "repo": "matplotlib/matplotlib",
+    "files_to_edit": [
+      "lib/matplotlib/axis.py"
+    ],
+    "repo_path": "./tmp_repos/matplotlib_matplotlib"
+  },
+  {
+    "instance_id": "pytest-dev__pytest-11143",
+    "repo": "pytest-dev/pytest",
+    "files_to_edit": [
+      "src/_pytest/assertion/rewrite.py"
+    ],
+    "repo_path": "./tmp_repos/pytest-dev_pytest"
+  },
+  {
+    "instance_id": "pydata__xarray-3364",
+    "repo": "pydata/xarray",
+    "files_to_edit": [
+      "xarray/core/concat.py"
+    ],
+    "repo_path": "./tmp_repos/pydata_xarray"
+  },
+  {
+    "instance_id": "astropy__astropy-14365",
+    "repo": "astropy/astropy",
+    "files_to_edit": [
+      "astropy/io/ascii/qdp.py"
+    ],
+    "repo_path": "./tmp_repos/astropy_astropy"
+  },
+  {
+    "instance_id": "pytest-dev__pytest-6116",
+    "repo": "pytest-dev/pytest",
+    "files_to_edit": [
+      "src/_pytest/main.py"
+    ],
+    "repo_path": "./tmp_repos/pytest-dev_pytest"
+  },
+  {
+    "instance_id": "scikit-learn__scikit-learn-10949",
+    "repo": "scikit-learn/scikit-learn",
+    "files_to_edit": [
+      "sklearn/utils/validation.py"
+    ],
+    "repo_path": "./tmp_repos/scikit-learn_scikit-learn"
+  },
+  {
+    "instance_id": "django__django-15814",
+    "repo": "django/django",
+    "files_to_edit": [
+      "django/db/models/sql/query.py"
+    ],
+    "repo_path": "./tmp_repos/django_django"
+  },
+  {
+    "instance_id": "pytest-dev__pytest-5413",
+    "repo": "pytest-dev/pytest",
+    "files_to_edit": [
+      "src/_pytest/_code/code.py"
+    ],
+    "repo_path": "./tmp_repos/pytest-dev_pytest"
+  },
+  {
+    "instance_id": "django__django-12113",
+    "repo": "django/django",
+    "files_to_edit": [
+      "django/db/backends/sqlite3/creation.py"
+    ],
+    "repo_path": "./tmp_repos/django_django"
+  },
+  {
+    "instance_id": "sympy__sympy-19007",
+    "repo": "sympy/sympy",
+    "files_to_edit": [
+      "sympy/matrices/expressions/blockmatrix.py"
+    ],
+    "repo_path": "./tmp_repos/sympy_sympy"
+  },
+  {
+    "instance_id": "scikit-learn__scikit-learn-10508",
+    "repo": "scikit-learn/scikit-learn",
+    "files_to_edit": [
+      "sklearn/preprocessing/label.py"
+    ],
+    "repo_path": "./tmp_repos/scikit-learn_scikit-learn"
+  },
+  {
+    "instance_id": "sympy__sympy-13471",
+    "repo": "sympy/sympy",
+    "files_to_edit": [
+      "sympy/core/numbers.py"
+    ],
+    "repo_path": "./tmp_repos/sympy_sympy"
+  },
+  {
+    "instance_id": "sphinx-doc__sphinx-8506",
+    "repo": "sphinx-doc/sphinx",
+    "files_to_edit": [
+      "sphinx/domains/std.py"
+    ],
+    "repo_path": "./tmp_repos/sphinx-doc_sphinx"
+  },
+  {
+    "instance_id": "sympy__sympy-22005",
+    "repo": "sympy/sympy",
+    "files_to_edit": [
+      "sympy/solvers/polysys.py"
+    ],
+    "repo_path": "./tmp_repos/sympy_sympy"
+  },
+  {
+    "instance_id": "pydata__xarray-4248",
+    "repo": "pydata/xarray",
+    "files_to_edit": [
+      "xarray/core/formatting.py"
+    ],
+    "repo_path": "./tmp_repos/pydata_xarray"
+  },
+  {
+    "instance_id": "matplotlib__matplotlib-24334",
+    "repo": "matplotlib/matplotlib",
+    "files_to_edit": [
+      "lib/matplotlib/axis.py"
+    ],
+    "repo_path": "./tmp_repos/matplotlib_matplotlib"
+  },
+  {
+    "instance_id": "django__django-16255",
+    "repo": "django/django",
+    "files_to_edit": [
+      "django/contrib/sitemaps/__init__.py"
+    ],
+    "repo_path": "./tmp_repos/django_django"
+  },
+  {
+    "instance_id": "matplotlib__matplotlib-26020",
+    "repo": "matplotlib/matplotlib",
+    "files_to_edit": [
+      "lib/mpl_toolkits/axes_grid1/axes_grid.py"
+    ],
+    "repo_path": "./tmp_repos/matplotlib_matplotlib"
+  },
+  {
+    "instance_id": "sphinx-doc__sphinx-7738",
+    "repo": "sphinx-doc/sphinx",
+    "files_to_edit": [
+      "sphinx/ext/napoleon/docstring.py"
+    ],
+    "repo_path": "./tmp_repos/sphinx-doc_sphinx"
+  },
+  {
+    "instance_id": "django__django-15789",
+    "repo": "django/django",
+    "files_to_edit": [
+      "django/utils/html.py"
+    ],
+    "repo_path": "./tmp_repos/django_django"
+  },
+  {
+    "instance_id": "psf__requests-2148",
+    "repo": "psf/requests",
+    "files_to_edit": [
+      "requests/models.py"
+    ],
+    "repo_path": "./tmp_repos/psf_requests"
+  },
+  {
+    "instance_id": "sphinx-doc__sphinx-10451",
+    "repo": "sphinx-doc/sphinx",
+    "files_to_edit": [
+      "sphinx/ext/autodoc/typehints.py"
+    ],
+    "repo_path": "./tmp_repos/sphinx-doc_sphinx"
+  },
+  {
+    "instance_id": "django__django-16408",
+    "repo": "django/django",
+    "files_to_edit": [
+      "django/db/models/sql/compiler.py"
+    ],
+    "repo_path": "./tmp_repos/django_django"
+  },
+  {
+    "instance_id": "django__django-15320",
+    "repo": "django/django",
+    "files_to_edit": [
+      "django/db/models/expressions.py"
+    ],
+    "repo_path": "./tmp_repos/django_django"
+  },
+  {
+    "instance_id": "sphinx-doc__sphinx-8273",
+    "repo": "sphinx-doc/sphinx",
+    "files_to_edit": [
+      "sphinx/builders/manpage.py"
+    ],
+    "repo_path": "./tmp_repos/sphinx-doc_sphinx"
+  },
+  {
+    "instance_id": "django__django-12308",
+    "repo": "django/django",
+    "files_to_edit": [
+      "django/contrib/admin/utils.py"
+    ],
+    "repo_path": "./tmp_repos/django_django"
+  },
+  {
+    "instance_id": "sympy__sympy-16106",
+    "repo": "sympy/sympy",
+    "files_to_edit": [
+      "sympy/printing/mathml.py"
+    ],
+    "repo_path": "./tmp_repos/sympy_sympy"
+  },
+  {
+    "instance_id": "astropy__astropy-12907",
+    "repo": "astropy/astropy",
+    "files_to_edit": [
+      "astropy/modeling/separable.py"
+    ],
+    "repo_path": "./tmp_repos/astropy_astropy"
+  },
+  {
+    "instance_id": "pylint-dev__pylint-7228",
+    "repo": "pylint-dev/pylint",
+    "files_to_edit": [
+      "pylint/config/argument.py"
+    ],
+    "repo_path": "./tmp_repos/pylint-dev_pylint"
+  },
+  {
+    "instance_id": "scikit-learn__scikit-learn-13241",
+    "repo": "scikit-learn/scikit-learn",
+    "files_to_edit": [
+      "sklearn/decomposition/kernel_pca.py"
+    ],
+    "repo_path": "./tmp_repos/scikit-learn_scikit-learn"
+  },
+  {
+    "instance_id": "pallets__flask-4045",
+    "repo": "pallets/flask",
+    "files_to_edit": [
+      "src/flask/blueprints.py"
+    ],
+    "repo_path": "./tmp_repos/pallets_flask"
+  },
+  {
+    "instance_id": "django__django-16873",
+    "repo": "django/django",
+    "files_to_edit": [
+      "django/template/defaultfilters.py"
+    ],
+    "repo_path": "./tmp_repos/django_django"
+  },
+  {
+    "instance_id": "scikit-learn__scikit-learn-14087",
+    "repo": "scikit-learn/scikit-learn",
+    "files_to_edit": [
+      "sklearn/linear_model/logistic.py"
+    ],
+    "repo_path": "./tmp_repos/scikit-learn_scikit-learn"
+  },
+  {
+    "instance_id": "django__django-12125",
+    "repo": "django/django",
+    "files_to_edit": [
+      "django/db/migrations/serializer.py"
+    ],
+    "repo_path": "./tmp_repos/django_django"
+  },
+  {
+    "instance_id": "sympy__sympy-16281",
+    "repo": "sympy/sympy",
+    "files_to_edit": [
+      "sympy/printing/pretty/pretty.py"
+    ],
+    "repo_path": "./tmp_repos/sympy_sympy"
+  },
+  {
+    "instance_id": "django__django-14730",
+    "repo": "django/django",
+    "files_to_edit": [
+      "django/db/models/fields/related.py"
+    ],
+    "repo_path": "./tmp_repos/django_django"
+  },
+  {
+    "instance_id": "sympy__sympy-18698",
+    "repo": "sympy/sympy",
+    "files_to_edit": [
+      "sympy/polys/polytools.py"
+    ],
+    "repo_path": "./tmp_repos/sympy_sympy"
+  },
+  {
+    "instance_id": "mwaskom__seaborn-3407",
+    "repo": "mwaskom/seaborn",
+    "files_to_edit": [
+      "seaborn/axisgrid.py"
+    ],
+    "repo_path": "./tmp_repos/mwaskom_seaborn"
+  },
+  {
+    "instance_id": "sympy__sympy-15678",
+    "repo": "sympy/sympy",
+    "files_to_edit": [
+      "sympy/geometry/util.py"
+    ],
+    "repo_path": "./tmp_repos/sympy_sympy"
+  },
+  {
+    "instance_id": "sympy__sympy-11400",
+    "repo": "sympy/sympy",
+    "files_to_edit": [
+      "sympy/printing/ccode.py"
+    ],
+    "repo_path": "./tmp_repos/sympy_sympy"
+  },
+  {
+    "instance_id": "sympy__sympy-18621",
+    "repo": "sympy/sympy",
+    "files_to_edit": [
+      "sympy/matrices/expressions/blockmatrix.py"
+    ],
+    "repo_path": "./tmp_repos/sympy_sympy"
+  },
+  {
+    "instance_id": "django__django-13220",
+    "repo": "django/django",
+    "files_to_edit": [
+      "django/core/exceptions.py"
+    ],
+    "repo_path": "./tmp_repos/django_django"
+  },
+  {
+    "instance_id": "sympy__sympy-14317",
+    "repo": "sympy/sympy",
+    "files_to_edit": [
+      "sympy/printing/latex.py"
+    ],
+    "repo_path": "./tmp_repos/sympy_sympy"
+  },
+  {
+    "instance_id": "django__django-11564",
+    "repo": "django/django",
+    "files_to_edit": [
+      "django/conf/__init__.py"
+    ],
+    "repo_path": "./tmp_repos/django_django"
+  },
+  {
+    "instance_id": "sympy__sympy-13647",
+    "repo": "sympy/sympy",
+    "files_to_edit": [
+      "sympy/matrices/common.py"
+    ],
+    "repo_path": "./tmp_repos/sympy_sympy"
+  },
+  {
+    "instance_id": "django__django-11964",
+    "repo": "django/django",
+    "files_to_edit": [
+      "django/db/models/enums.py"
+    ],
+    "repo_path": "./tmp_repos/django_django"
+  },
+  {
+    "instance_id": "django__django-12470",
+    "repo": "django/django",
+    "files_to_edit": [
+      "django/db/models/sql/compiler.py"
+    ],
+    "repo_path": "./tmp_repos/django_django"
+  },
+  {
+    "instance_id": "sphinx-doc__sphinx-8435",
+    "repo": "sphinx-doc/sphinx",
+    "files_to_edit": [
+      "sphinx/ext/autodoc/__init__.py"
+    ],
+    "repo_path": "./tmp_repos/sphinx-doc_sphinx"
+  },
+  {
+    "instance_id": "mwaskom__seaborn-3190",
+    "repo": "mwaskom/seaborn",
+    "files_to_edit": [
+      "seaborn/_core/scales.py"
+    ],
+    "repo_path": "./tmp_repos/mwaskom_seaborn"
+  },
+  {
+    "instance_id": "sympy__sympy-18532",
+    "repo": "sympy/sympy",
+    "files_to_edit": [
+      "sympy/core/basic.py"
+    ],
+    "repo_path": "./tmp_repos/sympy_sympy"
+  },
+  {
+    "instance_id": "scikit-learn__scikit-learn-13779",
+    "repo": "scikit-learn/scikit-learn",
+    "files_to_edit": [
+      "sklearn/ensemble/voting.py"
+    ],
+    "repo_path": "./tmp_repos/scikit-learn_scikit-learn"
+  },
+  {
+    "instance_id": "django__django-11620",
+    "repo": "django/django",
+    "files_to_edit": [
+      "django/views/debug.py"
+    ],
+    "repo_path": "./tmp_repos/django_django"
+  },
+  {
+    "instance_id": "sympy__sympy-21171",
+    "repo": "sympy/sympy",
+    "files_to_edit": [
+      "sympy/printing/latex.py"
+    ],
+    "repo_path": "./tmp_repos/sympy_sympy"
+  },
+  {
+    "instance_id": "pylint-dev__pylint-6506",
+    "repo": "pylint-dev/pylint",
+    "files_to_edit": [
+      "pylint/config/config_initialization.py"
+    ],
+    "repo_path": "./tmp_repos/pylint-dev_pylint"
+  },
+  {
+    "instance_id": "django__django-15819",
+    "repo": "django/django",
+    "files_to_edit": [
+      "django/core/management/commands/inspectdb.py"
+    ],
+    "repo_path": "./tmp_repos/django_django"
+  },
+  {
+    "instance_id": "django__django-10924",
+    "repo": "django/django",
+    "files_to_edit": [
+      "django/db/models/fields/__init__.py"
+    ],
+    "repo_path": "./tmp_repos/django_django"
+  },
+  {
+    "instance_id": "sphinx-doc__sphinx-8474",
+    "repo": "sphinx-doc/sphinx",
+    "files_to_edit": [
+      "sphinx/domains/std.py"
+    ],
+    "repo_path": "./tmp_repos/sphinx-doc_sphinx"
+  },
+  {
+    "instance_id": "sympy__sympy-13915",
+    "repo": "sympy/sympy",
+    "files_to_edit": [
+      "sympy/core/mul.py"
+    ],
+    "repo_path": "./tmp_repos/sympy_sympy"
+  },
+  {
+    "instance_id": "pylint-dev__pylint-7993",
+    "repo": "pylint-dev/pylint",
+    "files_to_edit": [
+      "pylint/reporters/text.py"
+    ],
+    "repo_path": "./tmp_repos/pylint-dev_pylint"
+  },
+  {
+    "instance_id": "pallets__flask-4992",
+    "repo": "pallets/flask",
+    "files_to_edit": [
+      "src/flask/config.py"
+    ],
+    "repo_path": "./tmp_repos/pallets_flask"
+  },
+  {
+    "instance_id": "django__django-14382",
+    "repo": "django/django",
+    "files_to_edit": [
+      "django/core/management/templates.py"
+    ],
+    "repo_path": "./tmp_repos/django_django"
+  },
+  {
+    "instance_id": "django__django-13447",
+    "repo": "django/django",
+    "files_to_edit": [
+      "django/contrib/admin/sites.py"
+    ],
+    "repo_path": "./tmp_repos/django_django"
+  },
+  {
+    "instance_id": "sympy__sympy-17022",
+    "repo": "sympy/sympy",
+    "files_to_edit": [
+      "sympy/printing/pycode.py"
+    ],
+    "repo_path": "./tmp_repos/sympy_sympy"
+  },
+  {
+    "instance_id": "matplotlib__matplotlib-25498",
+    "repo": "matplotlib/matplotlib",
+    "files_to_edit": [
+      "lib/matplotlib/colorbar.py"
+    ],
+    "repo_path": "./tmp_repos/matplotlib_matplotlib"
+  },
+  {
+    "instance_id": "django__django-14855",
+    "repo": "django/django",
+    "files_to_edit": [
+      "django/contrib/admin/helpers.py"
+    ],
+    "repo_path": "./tmp_repos/django_django"
+  },
+  {
+    "instance_id": "sympy__sympy-21055",
+    "repo": "sympy/sympy",
+    "files_to_edit": [
+      "sympy/assumptions/refine.py"
+    ],
+    "repo_path": "./tmp_repos/sympy_sympy"
+  },
+  {
+    "instance_id": "django__django-15252",
+    "repo": "django/django",
+    "files_to_edit": [
+      "django/db/migrations/executor.py"
+    ],
+    "repo_path": "./tmp_repos/django_django"
+  },
+  {
+    "instance_id": "sphinx-doc__sphinx-7975",
+    "repo": "sphinx-doc/sphinx",
+    "files_to_edit": [
+      "sphinx/environment/adapters/indexentries.py"
+    ],
+    "repo_path": "./tmp_repos/sphinx-doc_sphinx"
+  },
+  {
+    "instance_id": "sympy__sympy-14024",
+    "repo": "sympy/sympy",
+    "files_to_edit": [
+      "sympy/core/numbers.py"
+    ],
+    "repo_path": "./tmp_repos/sympy_sympy"
+  },
+  {
+    "instance_id": "sympy__sympy-12236",
+    "repo": "sympy/sympy",
+    "files_to_edit": [
+      "sympy/polys/domains/polynomialring.py"
+    ],
+    "repo_path": "./tmp_repos/sympy_sympy"
+  },
+  {
+    "instance_id": "django__django-11179",
+    "repo": "django/django",
+    "files_to_edit": [
+      "django/db/models/deletion.py"
+    ],
+    "repo_path": "./tmp_repos/django_django"
+  },
+  {
+    "instance_id": "django__django-15213",
+    "repo": "django/django",
+    "files_to_edit": [
+      "django/db/models/fields/__init__.py"
+    ],
+    "repo_path": "./tmp_repos/django_django"
+  },
+  {
+    "instance_id": "django__django-16595",
+    "repo": "django/django",
+    "files_to_edit": [
+      "django/db/migrations/operations/fields.py"
+    ],
+    "repo_path": "./tmp_repos/django_django"
+  },
+  {
+    "instance_id": "scikit-learn__scikit-learn-12471",
+    "repo": "scikit-learn/scikit-learn",
+    "files_to_edit": [
+      "sklearn/preprocessing/_encoders.py"
+    ],
+    "repo_path": "./tmp_repos/scikit-learn_scikit-learn"
+  },
+  {
+    "instance_id": "sympy__sympy-23117",
+    "repo": "sympy/sympy",
+    "files_to_edit": [
+      "sympy/tensor/array/ndim_array.py"
+    ],
+    "repo_path": "./tmp_repos/sympy_sympy"
+  },
+  {
+    "instance_id": "pytest-dev__pytest-8365",
+    "repo": "pytest-dev/pytest",
+    "files_to_edit": [
+      "src/_pytest/tmpdir.py"
+    ],
+    "repo_path": "./tmp_repos/pytest-dev_pytest"
+  },
+  {
+    "instance_id": "sympy__sympy-21612",
+    "repo": "sympy/sympy",
+    "files_to_edit": [
+      "sympy/printing/str.py"
+    ],
+    "repo_path": "./tmp_repos/sympy_sympy"
+  },
+  {
+    "instance_id": "django__django-11905",
+    "repo": "django/django",
+    "files_to_edit": [
+      "django/db/models/lookups.py"
+    ],
+    "repo_path": "./tmp_repos/django_django"
+  },
+  {
+    "instance_id": "django__django-12915",
+    "repo": "django/django",
+    "files_to_edit": [
+      "django/contrib/staticfiles/handlers.py"
+    ],
+    "repo_path": "./tmp_repos/django_django"
+  },
+  {
+    "instance_id": "sphinx-doc__sphinx-10325",
+    "repo": "sphinx-doc/sphinx",
+    "files_to_edit": [
+      "sphinx/ext/autodoc/__init__.py"
+    ],
+    "repo_path": "./tmp_repos/sphinx-doc_sphinx"
+  },
+  {
+    "instance_id": "sympy__sympy-24152",
+    "repo": "sympy/sympy",
+    "files_to_edit": [
+      "sympy/physics/quantum/tensorproduct.py"
+    ],
+    "repo_path": "./tmp_repos/sympy_sympy"
+  }
+]

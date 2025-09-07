@@ -1,0 +1,8 @@
+{
+  "instance_id": "sample__calculator__1",
+  "repo": "sample/calculator",
+  "base_commit": "d4a1b2c",
+  "problem_statement": "The `add` function in `src/calculator.py` does not correctly handle floating point numbers. It should be able to sum two floating point numbers and return a float.",
+  "patch": "--- a/src/calculator.py\n+++ b/src/calculator.py\n@@ -1,3 +1,3 @@\n def add(a, b):\n-    return int(a) + int(b)\n+    return float(a) + float(b)",
+  "test_command": "python -m pytest"
+}

@@ -1,0 +1,54 @@
+{
+  "repo_name": "kinggongzilla/ai-clone-whatsapp",
+  "file_path": "utils/config_utils.py",
+  "context": [
+    {
+      "identifier": "datasets",
+      "path": "configs/datasets.py",
+      "snippet": "class custom_dataset:"
+    },
+    {
+      "identifier": "lora_config",
+      "path": "configs/peft.py",
+      "snippet": "class lora_config:\n     r: int=8\n     lora_alpha: int=32\n     target_modules: List[str] = field(default_factory=lambda: [\"q_proj\", \"v_proj\"])\n     bias= \"none\"\n     task_type: str= \"CAUSAL_LM\"\n     lora_dropout: float=0.05\n     inference_mode: bool = False"
+    },
+    {
+      "identifier": "llama_adapter_config",
+      "path": "configs/peft.py",
+      "snippet": "class llama_adapter_config:\n     adapter_len: int= 10\n     adapter_layers: int= 30\n     task_type: str= \"CAUSAL_LM\""
+    },
+    {
+      "identifier": "prefix_config",
+      "path": "configs/peft.py",
+      "snippet": "class prefix_config:\n     num_virtual_tokens: int=30\n     task_type: str= \"CAUSAL_LM\"    "
+    },
+    {
+      "identifier": "train_config",
+      "path": "configs/training.py",
+      "snippet": "class train_config:\n    whatsapp_username: str=\"\" # your own whatsapp user name as it is in the chat .txt files\n    model_name: str=\"mistralai/Mistral-7B-Instruct-v0.2\"\n    enable_fsdp: bool=False\n    low_cpu_fsdp: bool=False\n    run_validation: bool=False\n    batch_size_training: int=1\n    batching_strategy: str=\"packing\" #alternative: padding\n    context_length: int=4096\n    gradient_accumulation_steps: int=1\n    gradient_clipping: bool = False\n    gradient_clipping_threshold: float = 1.0\n    num_epochs: int=1\n    num_workers_dataloader: int=1\n    lr: float=1e-4\n    weight_decay: float=0.0\n    gamma: float= 0.85\n    seed: int=42\n    use_fp16: bool=True\n    mixed_precision: bool=True\n    val_batch_size: int=1\n    dataset = \"custom_dataset\"\n    data_dir: str = \"data/preprocessing/processed_chats\"\n    peft_method: str = \"lora\" # None , llama_adapter, prefix\n    use_peft: bool=True\n    output_dir: str = \"checkpoints\"\n    freeze_layers: bool = False\n    num_freeze_layers: int = 1\n    quantization: bool = True\n    one_gpu: bool = False\n    save_model: bool = True\n    dist_checkpoint_root_folder: str=\"PATH/to/save/FSDP/model\" # will be used if using FSDP\n    dist_checkpoint_folder: str=\"fine-tuned\" # will be used if using FSDP\n    save_optimizer: bool=False # will be used if using FSDP\n    use_fast_kernels: bool = False # Enable using SDPA from PyTroch Accelerated Transformers, make use Flash Attention and Xformer memory-efficient kernels"
+    },
+    {
+      "identifier": "LengthBasedBatchSampler",
+      "path": "data/sampler.py",
+      "snippet": "class LengthBasedBatchSampler(torch.utils.data.BatchSampler):\n    def __init__(self, data_source, batch_size: int, drop_last: bool, shuffle: bool=True) -> None:\n        if isinstance(next(iter(data_source)), dict):\n            first_key = next(iter(next(iter(data_source)).keys()))\n            self.lengths = [len(d[first_key]) for d in data_source]\n        else:\n            self.lengths = [len(d) for d in data_source]\n        self.batch_size = batch_size\n        self.drop_last = drop_last\n        self.shuffle = shuffle\n\n    def __iter__(self):\n        ids = np.argsort(self.lengths)\n        if self.drop_last:\n            ids = ids[:len(ids) // self.batch_size * self.batch_size]\n\n        batches = [ids[i:i+self.batch_size] for i in range(0, len(ids), self.batch_size)]\n\n        if self.shuffle:\n            random.shuffle(batches)\n\n        for b in batches:\n            yield b\n\n    def __len__(self):\n        if self.drop_last:\n            return len(self.lengths) // self.batch_size\n        else:\n            return len(self.lengths) // self.batch_size + (len(self.lengths) % self.batch_size > 0)"
+    },
+    {
+      "identifier": "DistributedLengthBasedBatchSampler",
+      "path": "data/sampler.py",
+      "snippet": "class DistributedLengthBasedBatchSampler(torch.utils.data.BatchSampler):\n    def __init__(self, data_source, batch_size: int, num_replicas: int, rank: int, shuffle: bool = True, seed: int = 0) -> None:\n        random.seed(seed)\n        self.batch_sampler = LengthBasedBatchSampler(\n            data_source, batch_size=batch_size, drop_last=True, shuffle=shuffle\n            )\n        self.num_replicas = num_replicas\n        self.rank = rank\n        \n    def __iter__(self):\n        max_length = len(self.batch_sampler) // self.num_replicas * self.num_replicas\n        return islice(self.batch_sampler, self.rank, max_length, self.num_replicas)\n         \n    def __len__(self):\n        return len(self.batch_sampler) // self.num_replicas"
+    },
+    {
+      "identifier": "DATASET_PREPROC",
+      "path": "utils/dataset_utils.py",
+      "snippet": "DATASET_PREPROC = {\n    \"custom_dataset\": get_custom_dataset,\n}"
+    }
+  ],
+  "import_statement": "import inspect\nimport torch.distributed as dist\nfrom dataclasses import asdict\nfrom torch.utils.data import DistributedSampler\nfrom peft import (\n    LoraConfig,\n    AdaptionPromptConfig,\n    PrefixTuningConfig,\n)\nfrom transformers import default_data_collator\nfrom transformers.data import DataCollatorForSeq2Seq\nfrom configs import datasets, lora_config, llama_adapter_config, prefix_config, train_config\nfrom data.sampler import LengthBasedBatchSampler, DistributedLengthBasedBatchSampler\nfrom utils.dataset_utils import DATASET_PREPROC",
+  "token_num": 1507,
+  "cropped_code": "# Copyright (c) Meta Platforms, Inc. and affiliates.\n# This software may be used and distributed according to the terms of the Llama 2 Community License Agreement.\n\n\n\n\n\ndef update_config(config, **kwargs):\n    if isinstance(config, (tuple, list)):\n        for c in config:\n            update_config(c, **kwargs)\n    else:\n        for k, v in kwargs.items():\n            if hasattr(config, k):\n                setattr(config, k, v)\n            elif \".\" in k:\n                # allow --some_config.some_param=True\n                config_name, param_name = k.split(\".\")\n                if type(config).__name__ == config_name:\n                    if hasattr(config, param_name):\n                        setattr(config, param_name, v)\n                    else:\n                        # In case of specialized config we can warm user\n                        print(f\"Warning: {config_name} does not accept parameter: {k}\")\n            elif isinstance(config, train_config):\n                print(f\"Warning: unknown parameter {k}\")\n\n\ndef generate_peft_config(train_config, kwargs):\n",
+  "all_code": "# Copyright (c) Meta Platforms, Inc. and affiliates.\n# This software may be used and distributed according to the terms of the Llama 2 Community License Agreement.\n\n\n\n\n\ndef update_config(config, **kwargs):\n    if isinstance(config, (tuple, list)):\n        for c in config:\n            update_config(c, **kwargs)\n    else:\n        for k, v in kwargs.items():\n            if hasattr(config, k):\n                setattr(config, k, v)\n            elif \".\" in k:\n                # allow --some_config.some_param=True\n                config_name, param_name = k.split(\".\")\n                if type(config).__name__ == config_name:\n                    if hasattr(config, param_name):\n                        setattr(config, param_name, v)\n                    else:\n                        # In case of specialized config we can warm user\n                        print(f\"Warning: {config_name} does not accept parameter: {k}\")\n            elif isinstance(config, train_config):\n                print(f\"Warning: unknown parameter {k}\")\n\n\ndef generate_peft_config(train_config, kwargs):",
+  "next_line": "    configs = (lora_config, llama_adapter_config, prefix_config)",
+  "gold_snippet_index": 1,
+  "created_at": "2023-12-28 00:02:08+00:00",
+  "level": "2k"
+}

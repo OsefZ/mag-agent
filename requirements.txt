@@ -1,0 +1,64 @@
+# MAG Agent Requirements - Performance Optimized Version
+
+# Core LLM and Language Processing
+litellm>=1.40.0
+openai>=1.12.0
+anthropic>=0.21.0
+
+# Graph Database
+neo4j>=5.14.0
+pymongo>=4.6.0  # For future MongoDB integration
+
+# Vector Operations and Machine Learning
+numpy>=1.24.0
+scikit-learn>=1.3.0
+scipy>=1.11.0
+
+# Vector Database and Embeddings
+langchain-core>=0.1.0
+langchain-community>=0.0.20
+chromadb>=0.4.0  # For vector storage
+faiss-cpu>=1.7.0  # Alternative vector search
+
+# Performance and Caching
+redis>=5.0.0  # For high-performance caching
+tenacity>=8.2.0  # For retry logic
+diskcache>=5.6.0  # For persistent caching
+
+# Data Processing
+pandas>=2.0.0
+datasets>=2.14.0
+
+# Web and API
+requests>=2.31.0
+urllib3>=2.0.0
+
+# Utilities
+python-dotenv>=1.0.0
+pydantic>=2.0.0
+typing-extensions>=4.7.0
+
+# Testing and Development
+pytest>=7.4.0
+pytest-asyncio>=0.21.0
+pytest-mock>=3.11.0
+pytest-cov>=4.1.0
+
+# Logging and Monitoring
+structlog>=23.1.0
+rich>=13.4.0  # For beautiful console output
+
+# Code Analysis
+ast-decompiler>=0.7.0
+astunparse>=1.6.0
+
+# Optional: Advanced NLP (uncomment if needed)
+# transformers>=4.30.0
+# torch>=2.0.0
+# sentence-transformers>=2.2.0
+
+# Development Tools
+black>=23.0.0
+isort>=5.12.0
+flake8>=6.0.0
+mypy>=1.4.0
