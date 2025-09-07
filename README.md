@@ -16,13 +16,6 @@ MAG is a novel dynamic memory architecture for Large Language Model (LLM) agents
 * **Structured Reflection & Self-Correction:** By querying its own history, the MAG agent can understand the consequences of its actions, enabling a powerful self-correction loop that dramatically improves success rates on complex tasks.
 * **Token Efficiency:** By retrieving minimal, highly-relevant context, MAG reduces prompt sizes and makes multi-step agentic workflows economically feasible.
 
-## ⚙How It Works
-
-The MAG agent operates in a "record-query-reflect" cycle, which is fundamentally different from a standard RAG pipeline. The agent's actions dynamically update its graph memory, which then informs subsequent retrieval and reasoning steps.
-
-![MAG Reasoning Loop](assets/mag_loop.png)
-*(You should add your `mag_loop.png` image to an `assets` folder in the repository)*
-
 ---
 
 ## Setup Instructions
